@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books - WENLIB</title>
+    <link rel="icon" href="./assets/peng.ico">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>WENLIB</h1>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html#about">ABOUT</a></li>
+            <li><a href="books.html">BOOKS</a></li>
+            <li><a href="index.html#contact">CONTACT</a></li>
+        </ul>
+        <div id="real-time" class="time-display"></div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+        <section id="books" class="section">
+            <h1>Books</h1>
+            <div class="dropdown-container">
+                <label for="cate">Choose category:</label>
+                <select id="cate" name="cate" class="custom-dropdown">
+                    <option value="all">All</option>
+                    <option value="Computer ScienceScience">Computer Science</option>
+                    <option value="Cyber Security">Cyber Security</option>
+                    <option value="Mathematic">Mathematic</option>
+                </select>
+            </div>
+
+            <!-- Book's list -->
+            <div id="book-list" class="book-list">
+                <!-- Book listing here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; <span id="current-year"></span> WENLIB. All rights reserved.</p>
+        <p>Today is <span id="current-date"></span></p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+    <script>
+        // Books
+        const books = [
+            { title: "Clean Code", author: "Robert C. Martin", category: "Computer Science" },
+            { title: "The Pragmatic Programmer", author: "Andrew Hunt, David Thomas", category: "Computer Science" },
+            { title: "Introduction to Algorithms", author: "Thomas H. Cormen", category: "Computer Science" },
+            { title: "Hacking: The Art of Exploitation", author: "Jon Erickson", category: "Cyber Security" },
+            { title: "Black Hat Python", author: "Justin Seitz", category: "Cyber Security" },
+            { title: "Applied Cryptography", author: "Bruce Schneier", category: "Cyber Security" },
+            { title: "Calculus", author: "Michael Spivak", category: "Mathematic" },
+            { title: "Linear Algebra Done Right", author: "Sheldon Axler", category: "Mathematic" },
+            { title: "Probability and Statistics", author: "Morris H. DeGroot", category: "Mathematic" }
+        ];
+
+        // Get DOM elements
+        const categoryDropdown = document.getElementById('cate');
+        const bookList = document.getElementById('book-list');
+
+        // Display books by category
+        function displayBooks(category) {
+            bookList.innerHTML = ''; // Delete old list
+
+            const filteredBooks = category === 'all'
+                ? books
+                : books.filter(book => book.category === category);
+
+            filteredBooks.forEach(book => {
+                const bookItem = document.createElement('div');
+                bookItem.className = 'book-item';
+                bookItem.innerHTML = `
+                    <h3>${book.title}</h3>
+                    <p><strong>Author:</strong> ${book.author}</p>
+                    <p><strong>Category:</strong> ${book.category}</p>
+                `;
+                bookList.appendChild(bookItem);
+            });
+        }
+
+        // Category changed event
+        categoryDropdown.addEventListener('change', (event) => {
+            const selectedCategory = event.target.value;
+            displayBooks(selectedCategory);
+        });
+
+        // Display all books
+        displayBooks('all');
+    </script>
+</body>
+
+</html>
