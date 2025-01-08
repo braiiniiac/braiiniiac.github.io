@@ -41,8 +41,14 @@ const navLinks = document.querySelectorAll('.navbar ul li a');
 function handleLinkClick(event) {
     const target = this.getAttribute('href');
 
+
     if (target === 'books.html') {
         window.location.href = target;
+        return;
+    }
+
+
+    if (target.startsWith('index.html')) {
         return;
     }
 
@@ -67,7 +73,12 @@ function handleLinkClick(event) {
     }
 }
 
-
 navLinks.forEach(link => {
     link.addEventListener('click', handleLinkClick);
+});
+
+
+const logo_navbar = document.getElementById("navlogo");
+logo_navbar.addEventListener("click", () => {
+    window.location.href = "index.html"
 });
