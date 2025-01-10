@@ -56,33 +56,26 @@
     </footer>
 
     <!-- JavaScript -->
-    <script src="./js/main.js"></script>
     <script>
-        // Books
-        const books = [
-            { title: "Clean Code", author: "Robert C. Martin", category: "Computer Science" },
-            { title: "The Pragmatic Programmer", author: "Andrew Hunt, David Thomas", category: "Computer Science" },
-            { title: "Introduction to Algorithms", author: "Thomas H. Cormen", category: "Computer Science" },
-            { title: "Hacking: The Art of Exploitation", author: "Jon Erickson", category: "Cyber Security" },
-            { title: "Black Hat Python", author: "Justin Seitz", category: "Cyber Security" },
-            { title: "Applied Cryptography", author: "Bruce Schneier", category: "Cyber Security" },
-            { title: "Calculus", author: "Michael Spivak", category: "Mathematics" },
-            { title: "Linear Algebra Done Right", author: "Sheldon Axler", category: "Mathematics" },
-            { title: "Probability and Statistics", author: "Morris H. DeGroot", category: "Mathematics" }
-        ];
+        // Lấy danh sách sách từ books.json
+        async function fetchBooks() {
+            try {
+                const response = await fetch('./json/books.json'); // Đọc file books.json
+                const books = await response.json(); // Chuyển đổi thành đối tượng JavaScript
+                return books;
+            } catch (error) {
+                console.error("Error fetching books:", error);
+                return [];
+            }
+        }
 
-        // Get DOM elements
-        const categoryDropdown = document.getElementById('cate');
-        const bookList = document.getElementById('book-list');
-        const searchInput = document.getElementById('search-input');
-        const searchButton = document.getElementById('search-button');
-
-        // Display books by category and search
-        function displayBooks(category, searchQuery = '') {
-            bookList.innerHTML = '';
+        // Hiển thị danh sách sách
+        function displayBooks(books, searchQuery = '', category = 'all') {
+            const bookList = document.getElementById("book-list");
+            bookList.innerHTML = ""; // Xóa nội dung cũ
 
             const filteredBooks = books.filter(book => {
-                const matchesCategory = category === 'all' || book.category === category;
+                const matchesCategory = category === 'all' || book.tag === category;
                 const matchesSearch = searchQuery === '' ||
                     book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                     book.author.toLowerCase().includes(searchQuery.toLowerCase());
@@ -90,44 +83,39 @@
             });
 
             filteredBooks.forEach(book => {
-                const bookItem = document.createElement('div');
-                bookItem.className = 'book-item';
+                const bookItem = document.createElement("div");
+                bookItem.className = "book-item";
                 bookItem.innerHTML = `
                     <h3>${book.title}</h3>
                     <p><strong>Author:</strong> ${book.author}</p>
-                    <p><strong>Category:</strong> ${book.category}</p>
+                    <p><strong>Description:</strong> ${book.description}</p>
+                    <p><strong>Tag:</strong> ${book.tag}</p>
+                    <img src="${book.image}" alt="${book.title}" style="max-width: 200px;">
                 `;
-                bookItem.addEventListener('click', () => {
-                    const queryParams = new URLSearchParams({
-                        title: book.title,
-                        author: book.author,
-                        category: book.category,
-                        description: 'This is a detailed description of the book...'
-                    });
-                    window.location.href = `book-detail.html?${queryParams.toString()}`;
-                });
                 bookList.appendChild(bookItem);
             });
-
-
         }
 
-        // Category changed event
-        categoryDropdown.addEventListener('change', (event) => {
-            const selectedCategory = event.target.value;
-            displayBooks(selectedCategory, searchInput.value.trim());
-        });
+        // Gọi hàm fetchBooks khi trang được tải
+        fetchBooks().then(books => displayBooks(books));
 
-        // Search button click event
+        // Xử lý tìm kiếm
+        const searchInput = document.getElementById('search-input');
+        const searchButton = document.getElementById('search-button');
+        const categoryDropdown = document.getElementById('cate');
+
         searchButton.addEventListener('click', () => {
             const searchQuery = searchInput.value.trim();
             const selectedCategory = categoryDropdown.value;
-            displayBooks(selectedCategory, searchQuery);
+            fetchBooks().then(books => displayBooks(books, searchQuery, selectedCategory));
         });
 
-        // Initial display of all books
-        displayBooks('all');
-
+        // Xử lý thay đổi category
+        categoryDropdown.addEventListener('change', () => {
+            const searchQuery = searchInput.value.trim();
+            const selectedCategory = categoryDropdown.value;
+            fetchBooks().then(books => displayBooks(books, searchQuery, selectedCategory));
+        });
     </script>
 </body>
 
