@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - WENLIB</title>
+    <link rel="icon" href="./assets/bookpeng.ico">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 id="navlogo">WENLIB</h1>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="library.html">BOOKS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <div id="real-time" class="time-display"></div>
+    </nav>
+
+    <!-- Login Form -->
+    <main class="content">
+        <section id="login" class="section">
+            <h1>Login</h1>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Login</button>
+            </form>
+            <p id="login-message" class="message"></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; <span id="current-year"></span> WENLIB. All rights reserved.</p>
+        <p>Today is <span id="current-date"></span></p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

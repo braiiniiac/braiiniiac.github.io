@@ -492,3 +492,61 @@ body {
         height: 100px;
     }
 }
+
+
+/* Login Section */
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--bg-color);
+}
+
+#login-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+#login-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: white;
+    font-size: 18px;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#login-form button {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#login-form button:hover {
+    background-color: var(--main-light-color);
+    color: var(--main-color);
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 16px;
+    color: var(--main-light-color);
+}
