@@ -16,7 +16,7 @@
         <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="index.html#about">ABOUT</a></li>
-            <li><a href="books.html">BOOKS</a></li>
+            <li><a href="library.html">BOOKS</a></li>
             <li><a href="index.html#contact">CONTACT</a></li>
         </ul>
         <div id="real-time" class="time-display"></div>
@@ -57,11 +57,11 @@
 
     <!-- JavaScript -->
     <script>
-        // Lấy danh sách sách từ books.json
+
         async function fetchBooks() {
             try {
-                const response = await fetch('./json/books.json'); // Đọc file books.json
-                const books = await response.json(); // Chuyển đổi thành đối tượng JavaScript
+                const response = await fetch('./json/books.json');
+                const books = await response.json();
                 return books;
             } catch (error) {
                 console.error("Error fetching books:", error);
@@ -69,10 +69,10 @@
             }
         }
 
-        // Hiển thị danh sách sách
+
         function displayBooks(books, searchQuery = '', category = 'all') {
             const bookList = document.getElementById("book-list");
-            bookList.innerHTML = ""; // Xóa nội dung cũ
+            bookList.innerHTML = "";
 
             const filteredBooks = books.filter(book => {
                 const matchesCategory = category === 'all' || book.tag === category;
@@ -92,14 +92,25 @@
                     <p><strong>Tag:</strong> ${book.tag}</p>
                     <img src="${book.image}" alt="${book.title}" style="max-width: 200px;">
                 `;
+                bookItem.addEventListener('click', () => {
+                    const queryParams = new URLSearchParams({
+                        title: book.title,
+                        author: book.author,
+                        description: book.description,
+                        tag: book.tag,
+                        image: book.image,
+                        link: book.link || "#"
+                    });
+                    window.location.href = `book.html?${queryParams.toString()}`;
+                });
                 bookList.appendChild(bookItem);
             });
         }
 
-        // Gọi hàm fetchBooks khi trang được tải
+
         fetchBooks().then(books => displayBooks(books));
 
-        // Xử lý tìm kiếm
+
         const searchInput = document.getElementById('search-input');
         const searchButton = document.getElementById('search-button');
         const categoryDropdown = document.getElementById('cate');
@@ -110,13 +121,14 @@
             fetchBooks().then(books => displayBooks(books, searchQuery, selectedCategory));
         });
 
-        // Xử lý thay đổi category
+
         categoryDropdown.addEventListener('change', () => {
             const searchQuery = searchInput.value.trim();
             const selectedCategory = categoryDropdown.value;
             fetchBooks().then(books => displayBooks(books, searchQuery, selectedCategory));
         });
     </script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

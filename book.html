@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book - WENLIB</title>
+    <link rel="icon" href="./assets/peng.ico">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 id="navlogo">WENLIB</h1>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html#about">ABOUT</a></li>
+            <li><a href="library.html">BOOKS</a></li>
+            <li><a href="index.html#contact">CONTACT</a></li>
+        </ul>
+        <div id="real-time" class="time-display"></div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+        <section id="book-detail" class="section">
+            <div class="book-detail-container">
+                <h1 id="book-title">Book Title</h1>
+                <img id="book-image" src="" alt="Book Cover">
+                <div class="book-info">
+                    <p><strong>Author:</strong> <span id="book-author"></span></p>
+                    <p><strong>Description:</strong> <span id="book-description"></span></p>
+                    <p><strong>Tag:</strong> <span id="book-tag"></span></p>
+                    <p><strong>Link:</strong> <a id="book-link" href="#" target="_blank">Download</a></p>
+                </div>
+            </div>
+            <a href="library.html" class="back-button">Back to library</a>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; <span id="current-year"></span> WENLIB. All rights reserved.</p>
+        <p>Today is <span id="current-date"></span></p>
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script>
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const title = urlParams.get('title');
+        const author = urlParams.get('author');
+        const description = urlParams.get('description');
+        const tag = urlParams.get('tag');
+        const image = urlParams.get('image');
+        const link = urlParams.get('link');
+
+
+        document.getElementById('book-title').textContent = title;
+        document.getElementById('book-author').textContent = author;
+        document.getElementById('book-description').textContent = description;
+        document.getElementById('book-tag').textContent = tag;
+        document.getElementById('book-image').src = image;
+        document.getElementById('book-link').href = link;
+
+        const currentYear = new Date().getFullYear();
+        document.getElementById('current-year').textContent = currentYear;
+
+        const currentDate = new Date().toLocaleDateString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+        document.getElementById('current-date').textContent = currentDate;
+    </script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
