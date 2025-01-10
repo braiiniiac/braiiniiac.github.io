@@ -42,7 +42,7 @@ function handleLinkClick(event) {
     const target = this.getAttribute('href');
 
 
-    if (target === 'books.html') {
+    if (target === 'library.html') {
         window.location.href = target;
         return;
     }

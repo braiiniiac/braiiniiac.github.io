@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Detail - WENLIB</title>
+    <link rel="icon" href="./assets/peng.ico">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 id="navlogo">WENLIB</h1>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html#about">ABOUT</a></li>
+            <li><a href="books.html">BOOKS</a></li>
+            <li><a href="index.html#contact">CONTACT</a></li>
+        </ul>
+        <div id="real-time" class="time-display"></div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+        <section id="book-detail" class="section">
+            <h1 id="book-title">Book Title</h1>
+            <p><strong>Author:</strong> <span id="book-author">Author Name</span></p>
+            <p><strong>Category:</strong> <span id="book-category">Category</span></p>
+            <p><strong>Description:</strong> <span id="book-description">Book description goes here...</span></p>
+            <a href="library.html" class="back-button">Back to Library</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; <span id="current-year"></span> WENLIB. All rights reserved.</p>
+        <p>Today is <span id="current-date"></span></p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const title = urlParams.get('title');
+        const author = urlParams.get('author');
+        const category = urlParams.get('category');
+        const description = urlParams.get('description');
+
+        document.getElementById('book-title').textContent = title;
+        document.getElementById('book-author').textContent = author;
+        document.getElementById('book-category').textContent = category;
+        document.getElementById('book-description').textContent = description;
+    </script>
+</body>
+
+</html>

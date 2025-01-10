@@ -26,14 +26,20 @@
     <main class="content">
         <section id="books" class="section">
             <h1>Books</h1>
-            <div class="dropdown-container">
-                <label for="cate">Choose category:</label>
-                <select id="cate" name="cate" class="custom-dropdown">
-                    <option value="all">All</option>
-                    <option value="Computer Science">Computer Science</option>
-                    <option value="Cyber Security">Cyber Security</option>
-                    <option value="Mathematic">Mathematic</option>
-                </select>
+            <div class="filter-container">
+                <div class="dropdown-container">
+                    <span class="tag-label">TAG</span>
+                    <select id="cate" name="cate" class="custom-dropdown">
+                        <option value="all">All</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Cyber Security">Cyber Security</option>
+                        <option value="Mathematics">Mathematics</option>
+                    </select>
+                </div>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search by title or author..." class="search-bar">
+                    <button id="search-button" class="search-button">Search</button>
+                </div>
             </div>
 
             <!-- Book's list -->
@@ -60,22 +66,28 @@
             { title: "Hacking: The Art of Exploitation", author: "Jon Erickson", category: "Cyber Security" },
             { title: "Black Hat Python", author: "Justin Seitz", category: "Cyber Security" },
             { title: "Applied Cryptography", author: "Bruce Schneier", category: "Cyber Security" },
-            { title: "Calculus", author: "Michael Spivak", category: "Mathematic" },
-            { title: "Linear Algebra Done Right", author: "Sheldon Axler", category: "Mathematic" },
-            { title: "Probability and Statistics", author: "Morris H. DeGroot", category: "Mathematic" }
+            { title: "Calculus", author: "Michael Spivak", category: "Mathematics" },
+            { title: "Linear Algebra Done Right", author: "Sheldon Axler", category: "Mathematics" },
+            { title: "Probability and Statistics", author: "Morris H. DeGroot", category: "Mathematics" }
         ];
 
         // Get DOM elements
         const categoryDropdown = document.getElementById('cate');
         const bookList = document.getElementById('book-list');
+        const searchInput = document.getElementById('search-input');
+        const searchButton = document.getElementById('search-button');
 
-        // Display books by category
-        function displayBooks(category) {
-            bookList.innerHTML = ''; // Delete old list
+        // Display books by category and search
+        function displayBooks(category, searchQuery = '') {
+            bookList.innerHTML = ''; // Clear old list
 
-            const filteredBooks = category === 'all'
-                ? books
-                : books.filter(book => book.category === category);
+            const filteredBooks = books.filter(book => {
+                const matchesCategory = category === 'all' || book.category === category;
+                const matchesSearch = searchQuery === '' ||
+                    book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                    book.author.toLowerCase().includes(searchQuery.toLowerCase());
+                return matchesCategory && matchesSearch;
+            });
 
             filteredBooks.forEach(book => {
                 const bookItem = document.createElement('div');
@@ -85,18 +97,37 @@
                     <p><strong>Author:</strong> ${book.author}</p>
                     <p><strong>Category:</strong> ${book.category}</p>
                 `;
+                bookItem.addEventListener('click', () => {
+                    const queryParams = new URLSearchParams({
+                        title: book.title,
+                        author: book.author,
+                        category: book.category,
+                        description: 'This is a detailed description of the book...'
+                    });
+                    window.location.href = `book-detail.html?${queryParams.toString()}`;
+                });
                 bookList.appendChild(bookItem);
             });
+
+
         }
 
         // Category changed event
         categoryDropdown.addEventListener('change', (event) => {
             const selectedCategory = event.target.value;
-            displayBooks(selectedCategory);
+            displayBooks(selectedCategory, searchInput.value.trim());
         });
 
-        // Display all books
+        // Search button click event
+        searchButton.addEventListener('click', () => {
+            const searchQuery = searchInput.value.trim();
+            const selectedCategory = categoryDropdown.value;
+            displayBooks(selectedCategory, searchQuery);
+        });
+
+        // Initial display of all books
         displayBooks('all');
+
     </script>
 </body>
 
