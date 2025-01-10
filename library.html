@@ -79,7 +79,7 @@
 
         // Display books by category and search
         function displayBooks(category, searchQuery = '') {
-            bookList.innerHTML = ''; // Clear old list
+            bookList.innerHTML = '';
 
             const filteredBooks = books.filter(book => {
                 const matchesCategory = category === 'all' || book.category === category;
