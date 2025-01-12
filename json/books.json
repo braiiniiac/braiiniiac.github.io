@@ -30,21 +30,5 @@
         "tag": "Mathematics",
         "image": "./images/download.jpg",
         "link": "git"
-    },
-    {
-        "title": "git2",
-        "author": "terry",
-        "description": "ssssssssssss",
-        "tag": "Cyber Security",
-        "image": "./images/rainbowcube.png",
-        "link": "123"
-    },
-    {
-        "title": "git2",
-        "author": "terry",
-        "description": "ssssssssssss",
-        "tag": "Cyber Security",
-        "image": "./images/rainbowcube.png",
-        "link": "123"
     }
 ]
