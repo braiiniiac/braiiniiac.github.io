@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "title": "Dino",
+        "author": "Wennie",
+        "description": "Dino dino",
+        "tag": "Mathematics",
+        "image": "./images/dinosaur.png",
+        "link": "test"
+    }
+]
