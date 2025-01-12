@@ -1,13 +1,5 @@
 [
     {
-        "title": "Test",
-        "author": "Robert C. Martin",
-        "description": "A handbook of agile software craftsmanship.",
-        "tag": "Computer Science",
-        "image": "./images/test.jpg",
-        "link": "testtt"
-    },
-    {
         "title": "Dino",
         "author": "Wen",
         "description": "test22222 asasd",
