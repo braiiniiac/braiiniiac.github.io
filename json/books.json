@@ -4,7 +4,31 @@
         "author": "Robert C. Martin",
         "description": "A handbook of agile software craftsmanship.",
         "tag": "Computer Science",
-        "image": "/images/test.jpg",
+        "image": "./images/test.jpg",
         "link": "testtt"
+    },
+    {
+        "title": "Dino",
+        "author": "Wen",
+        "description": "test22222 asasd",
+        "tag": "Mathematics",
+        "image": "./images/dinosaur.png",
+        "link": "akakkakak"
+    },
+    {
+        "title": "Test3",
+        "author": "Wen again",
+        "description": "hello niggaaaaaaaaaaaa",
+        "tag": "Cyber Security",
+        "image": "./images/tetris.jpg",
+        "link": "assssssssssssssssssssssssss"
+    },
+    {
+        "title": "test git",
+        "author": "WEN",
+        "description": "kakakaka",
+        "tag": "Mathematics",
+        "image": "./images/download.jpg",
+        "link": "git"
     }
 ]

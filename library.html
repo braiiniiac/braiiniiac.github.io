@@ -27,8 +27,12 @@
         <section id="books" class="section">
             <h1>Books</h1>
             <div class="filter-container">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search by title or author..." class="search-bar">
+                    <button id="search-button" class="search-button">Search</button>
+                </div>
                 <div class="dropdown-container">
-                    <span class="tag-label">TAG</span>
+                    <span class="tag-label" style="color: rgb(225, 238, 39);">TAG</span>
                     <select id="cate" name="cate" class="custom-dropdown">
                         <option value="all">All</option>
                         <option value="Computer Science">Computer Science</option>
@@ -36,11 +40,9 @@
                         <option value="Mathematics">Mathematics</option>
                     </select>
                 </div>
-                <div class="search-container">
-                    <input type="text" id="search-input" placeholder="Search by title or author..." class="search-bar">
-                    <button id="search-button" class="search-button">Search</button>
-                </div>
             </div>
+
+
 
             <!-- Book's list -->
             <div id="book-list" class="book-list">

@@ -36,7 +36,7 @@ const currentDate = new Date().toLocaleDateString('en-US', {
 });
 document.getElementById('current-date').textContent = currentDate;
 
-const navLinks = document.querySelectorAll('.navbar ul li a');
+const navLinkItems = document.querySelectorAll('.navbar ul li a');
 
 function handleLinkClick(event) {
     const target = this.getAttribute('href');
@@ -73,7 +73,7 @@ function handleLinkClick(event) {
     }
 }
 
-navLinks.forEach(link => {
+navLinkItems.forEach(link => {
     link.addEventListener('click', handleLinkClick);
 });
 
@@ -81,4 +81,12 @@ navLinks.forEach(link => {
 const logo_navbar = document.getElementById("navlogo");
 logo_navbar.addEventListener("click", () => {
     window.location.href = "index.html"
+});
+
+const hamburger = document.querySelector('.hamburger');
+const navLinksContainer = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+    navLinksContainer.classList.toggle('active');
+    hamburger.classList.toggle('open');
 });
