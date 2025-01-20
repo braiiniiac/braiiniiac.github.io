@@ -362,7 +362,6 @@ body {
 .book-item h3,
 .book-item p {
     pointer-events: none;
-    /* Vô hiệu hóa sự kiện click trên các phần tử con */
 }
 
 .book-item:hover {
@@ -385,7 +384,7 @@ body {
 
 .book-item p {
     margin: 5px 0;
-    font-size: 14px;
+    font-size: 15px;
     color: #666;
 }
 
