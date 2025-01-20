@@ -48,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
         );
         displayBooks(filteredBooks);
     }
-
     // Filter by tag and language
     function filterBooks() {
         const tag = tagFilter.value;

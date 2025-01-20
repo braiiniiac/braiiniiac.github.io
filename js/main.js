@@ -17,8 +17,6 @@ function toggleMenu() {
 document.addEventListener("DOMContentLoaded", function () {
 
     const navLogo = document.getElementById("navlogo");
-
-
     navLogo.addEventListener("click", function () {
         if (window.innerWidth >= 768) {
             window.location.href = "index.html";
