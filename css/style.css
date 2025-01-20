@@ -9,8 +9,7 @@
     --main-light-color: rgb(225, 238, 39);
     --bg-color: rgb(0, 122, 126);
     --darker-bg-color: rgb(0, 69, 71);
-    /* --wen-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-    --wen-font: Tahoma, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --wen-font: Cascadia Code, Cambria, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -374,12 +373,14 @@ body {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+    border-style: solid;
+    border-color: var(--bg-color);
 }
 
 .book-item h3 {
     margin: 10px 0;
-    font-size: 18px;
-    color: #333;
+    font-size: 17px;
+    color: #000000;
 }
 
 .book-item p {
