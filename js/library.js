@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("searchInput");
     const searchButton = document.getElementById("searchButton");
     const tagFilter = document.getElementById("tagFilter");
+    const languageFilter = document.getElementById("languageFilter");
 
     let books = [];
 
@@ -18,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Display books
     function displayBooks(books) {
         bookList.innerHTML = "";
-        books.forEach((book, index) => {
+        books.forEach((book) => {
             const bookItem = document.createElement("div");
             bookItem.className = "book-item";
             bookItem.innerHTML = `
@@ -48,19 +49,27 @@ document.addEventListener("DOMContentLoaded", function () {
         displayBooks(filteredBooks);
     }
 
-    // Filter by tag
-    function filterByTag() {
+    // Filter by tag and language
+    function filterBooks() {
         const tag = tagFilter.value;
+        const language = languageFilter.value;
+
+        let filteredBooks = books;
+
         if (tag) {
-            const filteredBooks = books.filter((book) => book.tag === tag);
-            displayBooks(filteredBooks);
-        } else {
-            displayBooks(books);
+            filteredBooks = filteredBooks.filter((book) => book.tag === tag);
         }
+
+        if (language) {
+            filteredBooks = filteredBooks.filter((book) => book.language === language);
+        }
+
+        displayBooks(filteredBooks);
     }
 
     // Event listeners
     searchButton.addEventListener("click", searchBooks);
     searchInput.addEventListener("input", searchBooks);
-    tagFilter.addEventListener("change", filterByTag);
+    tagFilter.addEventListener("change", filterBooks);
+    languageFilter.addEventListener("change", filterBooks);
 });

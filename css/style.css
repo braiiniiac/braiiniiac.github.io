@@ -9,12 +9,12 @@
     --main-light-color: rgb(225, 238, 39);
     --bg-color: rgb(0, 122, 126);
     --darker-bg-color: rgb(0, 69, 71);
-    --wen-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    --code-font: Cascadia Code;
+    /* --wen-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    --wen-font: Tahoma, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
-    font-family: var(--code-font);
+    font-family: var(--wen-font);
     display: flex;
     flex-direction: column;
     padding-top: 50px;
@@ -202,6 +202,7 @@ body {
 .footer {
     background-color: var(--main-color);
     color: white;
+    font-family: var(--wen-font);
     text-align: center;
     padding: 20px;
     font-size: 14px;

@@ -15,7 +15,7 @@ function toggleMenu() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    
+
     const navLogo = document.getElementById("navlogo");
 
 
