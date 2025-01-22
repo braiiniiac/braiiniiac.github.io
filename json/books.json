@@ -218,5 +218,25 @@
         "description": "Animal Farm \u0111\u01b0\u1ee3c in \u1edf Anh ng\u00e0y 17 th\u00e1ng 8 n\u0103m 1945 v\u00e0 m\u1ed9t n\u0103m sau th\u00ec \u0111\u01b0\u1ee3c in \u1edf M\u0129",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EW8DG6tun8tKryWeWRdNExgB6lYcOWphChWjDdKrDKEjXw?e=4x0sGp",
         "image": "./images/Animal_Farm.png"
+    },
+    {
+        "id": "22",
+        "title": "Finacial Risk Modeling And Portfolio Optimization With R (2nd Edition)",
+        "author": "Bernhard Pfaff",
+        "tag": "Data Science",
+        "language": "English",
+        "description": "The period since the late 1990s has been marked by financial crises\u2014the Asian crisis of 1997, the Russian debt crisis of 1998, the bursting of the dot-com bubble in 2000, the crises following the attack on the World Trade Center in 2001 and the invasion of Iraq in 2003, the sub-prime mortgage crisis of 2007, and European sovereign debt crisis since 2009 being the most prominent",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EQMmnGXa7KpIlPCz5i06Cx0BtqCUVQZkBo59zseMQItjzQ",
+        "image": "./images/Finacial_Risk_Modeling_And_Portfolio_Optimization_With_R_(2nd_Edition).png"
+    },
+    {
+        "id": "23",
+        "title": "Quantitative Economics With R",
+        "author": "Vikram Dayal",
+        "tag": "Data Science",
+        "language": "English",
+        "description": "Why a data science approach to economics? Data science involves the intersection of computer science, statistics, which is a discipline that is about learning from data, and a knowledge domain\u2014here, economics",
+        "link": "Why a data science approach to economics? Data science involves the intersection of\ncomputer science, statistics, which is a discipline that is about learning from data, and\na knowledge domain\u2014here, economics",
+        "image": "./images/Quantitative_Economics_With_R.png"
     }
 ]
