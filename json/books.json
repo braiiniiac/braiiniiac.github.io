@@ -334,5 +334,29 @@
         "description": "V\u1edbi tr\u1ea3i nghi\u1ec7m nhi\u1ec1u n\u0103m tham gia gi\u1ea3ng d\u1ea1y, b\u1ed3i d\u01b0\u1ee1ng h\u1ecdc sinh chuy\u00ean tin h\u1ecdc c\u1ee7a c\u00e1c tr\u01b0\u1eddng chuy\u00ean c\u00f3 truy\u1ec1n th\u1ed1ng v\u00e0 uy t\u00edn, c\u00e1c t\u00e1c gi\u1ea3 \u0111\u00e3 l\u1ef1a ch\u1ecdn, bi\u00ean so\u1ea1n c\u00e1c n\u1ed9i dung c\u01a1 b\u1ea3n, thi\u1ebft y\u1ebfu nh\u1ea5t m\u00e0 m\u00ecnh \u0111\u00e3 \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 d\u1ea1y h\u1ecdc v\u1edbi mong mu\u1ed1n b\u1ed9 s\u00e1ch ph\u1ee5c v\u1ee5 kh\u00f4ng ch\u1ec9 cho gi\u00e1o vi\u00ean v\u00e0 h\u1ecdc sinh chuy\u00ean tin h\u1ecdc c\u00e1c tr\u01b0\u1eddng Trung h\u1ecdc ph\u1ed5 th\u00f4ng m\u00e0 c\u1ea3 cho gi\u00e1o vi\u00ean, h\u1ecdc sinh chuy\u00ean tin Trung h\u1ecdc c\u01a1 s\u1edf l\u00e0m t\u00e0i li\u1ec7u tham kh\u1ea3o cho vi\u1ec7c d\u1ea1y v\u00e0 h\u1ecdc c\u1ee7a m\u00ecnh",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EXhuSk8vH3pLvXpM6d_u8GgBg7IGTYeaNDMaFFCpVlaNMQ?e=JaCcGS",
         "image": "./images/T\u00e0i_Li\u1ec7u_Gi\u00e1o_Khoa_Chuy\u00ean_Tin_-_Quy\u1ec3n_3.png"
+    },
+    {
+        "id": "28",
+        "title": "Data Structures And Algorithms Using C#",
+        "author": "Michael McMillan",
+        "tags": [
+            "DSA"
+        ],
+        "language": "English",
+        "description": "C# programmers: no more translating data structures from C++ or Java to use in your programs! Mike McMillan provides a tutorial on how to use data structures and algorithms plus the first comprehensive reference for C# imple\u0002mentation of data structures and algorithms found in the .NET Framework library, as well as those developed by the programmer",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ER0UkP7d7uNEkSI1sFI4hyIBJPTkDQWqPQQ01Q5OjCQQFw?e=XWvw39",
+        "image": "./images/Data_Structures_And_Algorithms_Using_CS.png"
+    },
+    {
+        "id": "29",
+        "title": "Data Structures And Program Design In C++",
+        "author": "Robert L. Kruse",
+        "tags": [
+            "DSA"
+        ],
+        "language": "English",
+        "description": "The greatest difficulties of writing large computer programs are not in deciding\nwhat the goals of the program should be, nor even in finding methods that can be used to reach these goals. The president of a business might say, \u201cLet\u2019s get a\ncomputer to keep track of all our inventory information, accounting records, and\n2 personnel files, and let it tell us when inventories need to be reordered and budget lines are overspent, and let it handle the payroll.\u201d With enough time and effort, a staff of systems analysts and programmers might be able to determine how various staff members are now doing these tasks and write programs to do the work in the same way",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ERkoNc4gePZCtB9GrRsA8BIBwVIlyxTuLnTTl5Wmio8N9Q?e=yeyfKW",
+        "image": "./images/Data_Structures_And_Program_Design_In_C++.png"
     }
 ]
