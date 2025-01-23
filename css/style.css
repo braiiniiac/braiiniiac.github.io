@@ -584,7 +584,7 @@ body {
     }
 }
 
-/* Style cho nút Back to Library */
+/* Back to Library */
 .back-link {
     display: block;
     margin: 20px auto;
@@ -608,4 +608,59 @@ body {
 .back-link:hover {
     background-color: #000000;
 
+}
+
+/* Same Tag Books Section */
+.same-tag-books {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.same-tag-books h2 {
+    font-size: 20px;
+    color: var(--main-color);
+    margin-bottom: 15px;
+}
+
+.same-tag-books .book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.same-tag-books .book-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.same-tag-books .book-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.same-tag-books .book-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid var(--main-color);
+}
+
+.same-tag-books .book-item h3 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+.same-tag-books .book-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
 }
