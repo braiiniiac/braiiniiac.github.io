@@ -3,240 +3,291 @@
         "id": "0",
         "title": "L\u00fd Thuy\u1ebft S\u01a1 C\u1ea5p C\u1ee7a C\u00e1c S\u1ed1",
         "author": "W. Sierpinski",
-        "tag": "Mathematics",
         "language": "Vietnamese",
         "description": "D\u1ecbch t\u1eeb b\u1ea3n in l\u1ea7n hai n\u0103m 1988 cu\u1ed1n Elementary theory of numbers",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ER6YlJXdtkZOu4UKrPXBnTABaWpiMNq-Aa_nDCaUOaybtA",
-        "image": "./images/L\u00fd_thuy\u1ebft_s\u01a1_c\u1ea5p_c\u1ee7a_c\u00e1c_s\u1ed1.png"
+        "image": "./images/L\u00fd_thuy\u1ebft_s\u01a1_c\u1ea5p_c\u1ee7a_c\u00e1c_s\u1ed1.png",
+        "tags": [
+            "Mathematics"
+        ]
     },
     {
         "id": "1",
         "title": "300 B\u00e0i Code Thi\u1ebfu Nhi",
         "author": "D\u01b0\u01a1ng Thi\u00ean T\u1ee9",
-        "tag": "DSA",
         "language": "Vietnamese",
         "description": "Trong gi\u00e1o tr\u00ecnh th\u1ef1c h\u00e0nh n\u00e0y, c\u00e1c b\u1ea1n s\u1ebd th\u1ef1c hi\u1ec7n c\u00e1c b\u00e0i t\u1eadp l\u1eadp tr\u00ecnh c\u01a1 b\u1ea3n, \u0111\u01b0\u1ee3c th\u1ef1c hi\u1ec7n b\u1eb1ng ng\u00f4n ng\u1eef l\u1eadp tr\u00ecnh C, theo chu\u1ea9n ANSI/ISO C89 (ANS X3.159-1989 v\u00e0 ISO/IEC 9899 - 1990)",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EWR6KxPp-EBDiNiz3417He4B7ob7wn9qr9gaNFkfeWxEzA?e=G6fOwA",
-        "image": "./images/300_B\u00e0i_Code_Thi\u1ebfu_Nhi.png"
+        "image": "./images/300_B\u00e0i_Code_Thi\u1ebfu_Nhi.png",
+        "tags": [
+            "DSA"
+        ]
     },
     {
         "id": "2",
         "title": "25 Chuy\u00ean \u0110\u1ec1 Ng\u1eef Ph\u00e1p Ti\u1ebfng Anh Tr\u1ecdng T\u00e2m",
         "author": "Trang Anh",
-        "tag": "English",
         "language": "Vietnamese",
         "description": "T\u1ed5ng h\u1ee3p 25 chuy\u00ean \u0111\u1ec1 ng\u1eef ph\u00e1p Ti\u1ebfng Anh tr\u1ecdng t\u00e2m, bao g\u1ed3m ph\u1ea7n 1 (12 ch\u01b0\u01a1ng) v\u00e0 ph\u1ea7n 2 (13 ch\u01b0\u01a1ng)",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EfpsKMDhG7RCi8mkxBttU4MBUgW8n9WVFiWPsfa3Dx5VDw?e=z0n2P3",
-        "image": "./images/25_Chuy\u00ean_\u0111\u1ec1_ng\u1eef_ph\u00e1p_Ti\u1ebfng_Anh_tr\u1ecdng_t\u00e2m.png"
+        "image": "./images/25_Chuy\u00ean_\u0111\u1ec1_ng\u1eef_ph\u00e1p_Ti\u1ebfng_Anh_tr\u1ecdng_t\u00e2m.png",
+        "tags": [
+            "English"
+        ]
     },
     {
         "id": "3",
         "title": "Longman English Grammar Practice For Intermediate Students",
         "author": "L. G. Alexander",
-        "tag": "English",
         "language": "English",
         "description": "YOU DONT HAVE TO WORK THROUGH THIS BOOK FROM START TO FINNISH!",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ETJ6O-DZFJNNlQFb17Z8D8wBtbIUOAEGVtfxOXTc7R7xkw?e=9IdBnG",
-        "image": "./images/Longman_English_Grammar_Practice_for_Intermediate_students.png"
+        "image": "./images/Longman_English_Grammar_Practice_for_Intermediate_students.png",
+        "tags": [
+            "English"
+        ]
     },
     {
         "id": "4",
         "title": "Ng\u1eef Ph\u00e1p Ti\u1ebfng Anh",
         "author": "Mai Lan H\u01b0\u01a1ng",
-        "tag": "English",
         "language": "Vietnamese",
         "description": "\"THI\u1ebeT TH\u1ef0C - D\u1ec4 HI\u1ec2U - D\u1ec4 NH\u1eda - D\u1ec4 TH\u1ef0C H\u00c0NH\"",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EVhqeU3yLBNHkLQE27YKsHoBRORgnlfHF0QpGBEQuqa5vQ?e=jltgap",
-        "image": "./images/Ng\u1eef_ph\u00e1p_Ti\u1ebfng_Anh.png"
+        "image": "./images/Ng\u1eef_ph\u00e1p_Ti\u1ebfng_Anh.png",
+        "tags": [
+            "English"
+        ]
     },
     {
         "id": "5",
         "title": "\u0110\u1ea1i S\u1ed1 Tuy\u1ebfn T\u00ednh Qua C\u00e1c V\u00ed D\u1ee5 V\u00e0 B\u00e0i T\u1eadp",
         "author": "L\u00ea Tu\u1ea5n Hoa",
-        "tag": "Mathematics",
         "language": "Vietnamese",
         "description": "\u0110\u1ea1i s\u1ed1 tuy\u1ebfn t\u00ednh l\u00e0 m\u1ed9t m\u00f4n h\u1ecdc c\u01a1 b\u1ea3n c\u1ee7a To\u00e1n cao c\u1ea5p v\u00e0 \u0111\u01b0\u1ee3c d\u1ea1y ngay t\u1eeb n\u0103m th\u1ee9 nh\u1ea5t \u1edf c\u00e1c tr\u01b0\u1eddng \u0111\u1ea1i h\u1ecdc, cao \u0111\u1eb3ng",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EXBTIgrCwKtDtecapLbZmy8BryFpvzk9k-ZkNIMRMSPfKQ?e=6uP7uQ",
-        "image": "./images/\u0110\u1ea1i_s\u1ed1_tuy\u1ebfn_t\u00ednh_qua_c\u00e1c_v\u00ed_d\u1ee5_v\u00e0_b\u00e0i_t\u1eadp.png"
+        "image": "./images/\u0110\u1ea1i_s\u1ed1_tuy\u1ebfn_t\u00ednh_qua_c\u00e1c_v\u00ed_d\u1ee5_v\u00e0_b\u00e0i_t\u1eadp.png",
+        "tags": [
+            "Mathematics"
+        ]
     },
     {
         "id": "6",
         "title": "Khai Th\u00e1c M\u1ed9t S\u1ed1 Ch\u1ee7 \u0110\u1ec1 S\u1ed1 H\u1ecdc Hay V\u00e0 Kh\u00f3 ",
         "author": "Do\u00e3n Quang Ti\u1ebfn",
-        "tag": "Mathematics",
         "language": "Vietnamese",
         "description": "T\u1ee6 S\u00c1CH LUY\u1ec6N THI OLYMPIC",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ESmWtAlqoZJLjOlGc3Mw0eABRUWjuO8nTXEQCD_huhimAg",
-        "image": "./images/Khai_Th\u00e1c_M\u1ed9t_S\u1ed1_V\u1ea5n_\u0110\u1ec1_S\u1ed1_H\u1ecdc_Hay_V\u00e0_Kh\u00f3_.png"
+        "image": "./images/Khai_Th\u00e1c_M\u1ed9t_S\u1ed1_V\u1ea5n_\u0110\u1ec1_S\u1ed1_H\u1ecdc_Hay_V\u00e0_Kh\u00f3_.png",
+        "tags": [
+            "Mathematics"
+        ]
     },
     {
         "id": "7",
         "title": "Ph\u01b0\u01a1ng Tr\u00ecnh H\u00e0m",
         "author": "Nguy\u1ec5n V\u0103n M\u1eadu",
-        "tag": "Mathematics",
         "language": "Vietnamese",
         "description": "L\u00fd thuy\u1ebft c\u00e1c ph\u01b0\u01a1ng tr\u00ecnh h\u00e0m l\u00e0 m\u1ed9t trong nh\u1eefng l\u0129nh v\u1ef1c nghi\u00ean c\u1ee9u quan tr\u1ecdng c\u1ee7a Gi\u1ea3i t\u00edch to\u00e1n h\u1ecdc",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EWW_b2WQ-wJIsouU6DiGjBABqzP_8i42s9pcd8gH9NX6LA?e=akbwPC",
-        "image": "./images/Ph\u01b0\u01a1ng_Tr\u00ecnh_H\u00e0m.png"
+        "image": "./images/Ph\u01b0\u01a1ng_Tr\u00ecnh_H\u00e0m.png",
+        "tags": [
+            "Mathematics"
+        ]
     },
     {
         "id": "8",
         "title": "To\u00e1n H\u1ecdc Cao C\u1ea5p - T\u1eadp 1",
         "author": "Nguy\u1ec5n \u0110\u00ecnh Tr\u00ed",
-        "tag": "Mathematics",
         "language": "Vietnamese",
         "description": "To\u00e1n h\u1ecdc cao c\u1ea5p l\u00e0 m\u1ed9t m\u00f4n h\u1ecdc kh\u00f3 m\u00e0 sinh vi\u00ean c\u00e1c tr\u01b0\u1eddng \u0111\u1ea1i h\u1ecdc k\u0129 thu\u1eadt ph\u1ea3i h\u1ecdc trong ba h\u1ecdc k\u00ec \u0111\u1ea7u, bao g\u1ed3m nh\u1eefng v\u1ea5n \u0111\u1ec1 c\u01a1 b\u1ea3n c\u1ee7a \u0111\u1ea1i s\u1ed1 v\u00e0 gi\u1ea3i t\u00edch to\u00e1n h\u1ecdc, \u0111\u00f3ng vai tr\u00f2 then ch\u1ed1t trong vi\u1ec7c r\u00e8n luy\u1ec7n t\u01b0 duy khoa h\u1ecdc, cung c\u1ea5p c\u00f4ng c\u1ee5 to\u00e1n h\u1ecdc \u0111\u1ec3 sinh vi\u00ean h\u1ecdc c\u00e1c m\u00f4n h\u1ecdc kh\u00e1c \u1edf b\u1eadc \u0111\u1ea1i h\u1ecdc v\u00e0 x\u00e2y d\u1ef1ng ti\u1ec1m l\u1ef1c \u0111\u1ec3 ti\u1ebfp t\u1ee5c t\u1ef1 h\u1ecdc sau",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EW_8wTlPAtdKohQJ6ZYJ-pEB5JCjp-D4h6Gi8HOpnPBfLg",
-        "image": "./images/To\u00e1n_H\u1ecdc_Cao_C\u1ea5p_-_T\u1eadp_1.png"
+        "image": "./images/To\u00e1n_H\u1ecdc_Cao_C\u1ea5p_-_T\u1eadp_1.png",
+        "tags": [
+            "Mathematics"
+        ]
     },
     {
         "id": "9",
         "title": "To\u00e1n H\u1ecdc Cao C\u1ea5p - T\u1eadp 2",
         "author": "Nguy\u1ec5n \u0110\u00ecnh Tr\u00ed",
-        "tag": "Mathematics",
         "language": "Vietnamese",
         "description": "Ti\u1ebfp n\u1ed1i T\u1eadp 1, l\u1ea7n n\u00e0y ta s\u1ebd t\u00ecm hi\u1ec3u v\u1ec1 Ph\u00e9p t\u00ednh gi\u1ea3i t\u00edch m\u1ed9t bi\u1ebfn s\u1ed1",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EZIfmb4a9ZtFm63hKPORoRQB8md3Q_AwT8Nai6y1_ywd3A",
-        "image": "./images/To\u00e1n_H\u1ecdc_Cao_C\u1ea5p_-_T\u1eadp_2.png"
+        "image": "./images/To\u00e1n_H\u1ecdc_Cao_C\u1ea5p_-_T\u1eadp_2.png",
+        "tags": [
+            "Mathematics"
+        ]
     },
     {
         "id": "10",
         "title": "To\u00e1n H\u1ecdc Cao C\u1ea5p - T\u1eadp 3",
         "author": "Nguy\u1ec5n \u0110\u00ecnh Tr\u00ed",
-        "tag": "Mathematics",
         "language": "Vietnamese",
         "description": "\u0110\u1ebfn v\u1edbi t\u1eadp 3, ta s\u1ebd c\u00f9ng b\u00e0n v\u1ec1 Ph\u00e9p t\u00ednh gi\u1ea3i t\u00edch nhi\u1ec1u bi\u1ebfn s\u1ed1",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EcKB_CZezbhLuk2CHUMM9g0Bi22vKW_uYuO_DVNIqVkz2w",
-        "image": "./images/To\u00e1n_H\u1ecdc_Cao_C\u1ea5p_-_T\u1eadp_3.png"
+        "image": "./images/To\u00e1n_H\u1ecdc_Cao_C\u1ea5p_-_T\u1eadp_3.png",
+        "tags": [
+            "Mathematics"
+        ]
     },
     {
         "id": "11",
         "title": "Gi\u1ea3i Thu\u1eadt V\u00e0 L\u1eadp Tr\u00ecnh",
         "author": "L\u00ea Minh Ho\u00e0ng",
-        "tag": "DSA",
         "language": "Vietnamese",
         "description": "\"Try not to become a man of success but rather to become a man of value\" - Albert Einstein",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EQd3tEc9oTRGgA3dOad2s6MBWO1LTfkTMCPIWGk3aiDgTQ?e=FStbXo",
-        "image": "./images/Gi\u1ea3i_Thu\u1eadt_V\u00e0_L\u1eadp_Tr\u00ecnh.png"
+        "image": "./images/Gi\u1ea3i_Thu\u1eadt_V\u00e0_L\u1eadp_Tr\u00ecnh.png",
+        "tags": [
+            "DSA"
+        ]
     },
     {
         "id": "12",
         "title": "Gi\u00e1o Tr\u00ecnh Thu\u1eadt To\u00e1n L\u00fd Thuy\u1ebft V\u00e0 B\u00e0i T\u1eadp",
         "author": "Ng\u1ecdc Anh Th\u01b0",
-        "tag": "DSA",
         "language": "Vietnamese",
         "description": "Gi\u00e1o tr\u00ecnh d\u00e0nh cho sinh vi\u00ean; t\u00e0i li\u1ec7u tham kh\u1ea3o cho gi\u1ea3ng vi\u00ean; c\u1ea9m nang thu\u1eadt to\u00e1n d\u00e0nh cho c\u00e1c chuy\u00ean gia; nhi\u1ec1u v\u00ed d\u1ee5, h\u00ecnh, 900 b\u00e0i t\u1eadp v\u00e0 h\u01a1n 120 b\u00e0i to\u00e1n \u0111\u1ec3 b\u1ea1n tr\u1eafc nghi\u1ec7m m\u1ee9c ti\u1ebfp thu c\u0103n b\u1ea3n v\u1ec1 n\u1ed9i dung - t\u01b0 duy t\u1ef1 ki\u1ec3m tra",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EfdC1fMgnMZLl0s74zsECw0BGXwO8JkLvgWDueAYoQPBYQ?e=KmEdRV",
-        "image": "./images/Gi\u00e1o_Tr\u00ecnh_Thu\u1eadt_To\u00e1n_L\u00fd_Thuy\u1ebft_V\u00e0_B\u00e0i_T\u1eadp.png"
+        "image": "./images/Gi\u00e1o_Tr\u00ecnh_Thu\u1eadt_To\u00e1n_L\u00fd_Thuy\u1ebft_V\u00e0_B\u00e0i_T\u1eadp.png",
+        "tags": [
+            "DSA"
+        ]
     },
     {
         "id": "13",
         "title": "M\u1ed9t S\u1ed1 V\u1ea5n \u0110\u1ec1 V\u1ec1 Thu\u1eadt To\u00e1n",
         "author": "Nguy\u1ec5n H\u1eefu \u0110i\u1ec3n",
-        "tag": "DSA",
         "language": "Vietnamese",
         "description": "Cu\u1ed1n s\u00e1ch n\u00e0y \u0111\u01b0\u1ee3c bi\u00ean so\u1ea1n nh\u1eb1m ph\u1ee5c v\u1ee5 cho c\u00e1c b\u1ea1n y\u00eau th\u00edch to\u00e1n h\u1ecdc \u1ee9ng d\u1ee5ng v\u00e0 tin h\u1ecdc, c\u00e1c b\u1ea1n \u1edf l\u1edbp chuy\u00ean to\u00e1n, chuy\u00ean tin, c\u00e1c th\u1ea7y c\u00f4 gi\u00e1o v\u00e0 nh\u1eefng ng\u01b0\u1eddi quan t\u00e2m \u0111\u1ebfn gi\u00e1o d\u1ee5c to\u00e1n h\u1ecdc, tin h\u1ecdc \u1edf tr\u01b0\u1eddng ph\u1ed5 th\u00f4ng c\u0169ng nh\u01b0 \u0111\u1ea1i h\u1ecdc",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EZwAOjt0UMVFmN8fm7x8jyQBrrphRQ_O-0X1D0nOfS8MAQ?e=LlZFGH",
-        "image": "./images/M\u1ed9t_S\u1ed1_V\u1ea5n_\u0110\u1ec1_V\u1ec1_Thu\u1eadt_To\u00e1n.png"
+        "image": "./images/M\u1ed9t_S\u1ed1_V\u1ea5n_\u0110\u1ec1_V\u1ec1_Thu\u1eadt_To\u00e1n.png",
+        "tags": [
+            "DSA"
+        ]
     },
     {
         "id": "14",
         "title": "Ph\u01b0\u01a1ng Ph\u00e1p Thi\u1ebft K\u1ebf V\u00e0 \u0110\u00e1nh Gi\u00e1 Thu\u1eadt To\u00e1n",
         "author": "Tr\u1ea7n Tu\u1ea5n Minh",
-        "tag": "DSA",
         "language": "Vietnamese",
         "description": "Tr\u00ecnh b\u00e0y m\u1ed9t s\u1ed1 ph\u01b0\u01a1ng ph\u00e1p thi\u1ebft k\u1ebf thu\u1eadt to\u00e1n th\u00f4ng d\u1ee5ng; t\u00ecm hi\u1ec3u c\u01a1 s\u1edf ph\u00e2n t\u00edch \u0111\u1ed9 ph\u1ee9c t\u1ea1p c\u1ee7a thu\u1eadt to\u00e1n",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EYYN2ZHWuWhAvF8KMTaEUHMB06-Y9-9OjMPR-gLp73Nn5A?e=tCADY2",
-        "image": "./images/Ph\u01b0\u01a1ng_Ph\u00e1p_Thi\u1ebft_K\u1ebf_V\u00e0_\u0110\u00e1nh_Gi\u00e1_Thu\u1eadt_To\u00e1n.png"
+        "image": "./images/Ph\u01b0\u01a1ng_Ph\u00e1p_Thi\u1ebft_K\u1ebf_V\u00e0_\u0110\u00e1nh_Gi\u00e1_Thu\u1eadt_To\u00e1n.png",
+        "tags": [
+            "DSA"
+        ]
     },
     {
         "id": "15",
         "title": "Thu\u1eadt To\u00e1n - Thu\u1eadt Gi\u1ea3i",
         "author": "Ho\u00e0ng Ki\u1ebfm",
-        "tag": "DSA",
         "language": "Vietnamese",
         "description": "C\u00f3 nhi\u1ec1u b\u00e0i to\u00e1n cho \u0111\u1ebfn nay v\u1eabn ch\u01b0a t\u00ecm ra m\u1ed9t c\u00e1ch gi\u1ea3i theo ki\u1ec3u thu\u1eadt to\u00e1n v\u00e0 c\u0169ng kh\u00f4ng bi\u1ebft l\u00e0 c\u00f3 t\u1ed3n t\u1ea1i thu\u1eadt to\u00e1n hay kh\u00f4ng ...",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/Eb11ZpzG-dVGvnj0iBcLSPEBEyFUGlwsilAwBffZLFrAMg?e=fYOuQ2",
-        "image": "./images/Thu\u1eadt_To\u00e1n_-_Thu\u1eadt_Gi\u1ea3i.png"
+        "image": "./images/Thu\u1eadt_To\u00e1n_-_Thu\u1eadt_Gi\u1ea3i.png",
+        "tags": [
+            "DSA"
+        ]
     },
     {
         "id": "16",
         "title": "C\u1ea9m Nang Thu\u1eadt To\u00e1n - Vol. 1",
         "author": "Robert Sedgewick",
-        "tag": "DSA",
         "language": "Vietnamese",
         "description": "D\u1ecbch t\u1eeb \"Algorithms 2nd Edition\" c\u1ee7a Robert Sedgewick, Princeton University (USA)",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EUl48YB0xHFMjLIool7lQ08Bo9XIlTXff290TQ7XTQC_tA?e=dHCb2c",
-        "image": "./images/C\u1ea9m_Nang_Thu\u1eadt_To\u00e1n_-_Vol._1.png"
+        "image": "./images/C\u1ea9m_Nang_Thu\u1eadt_To\u00e1n_-_Vol._1.png",
+        "tags": [
+            "DSA"
+        ]
     },
     {
         "id": "17",
         "title": "C\u1ea9m Nang Thu\u1eadt To\u00e1n - Vol. 2",
         "author": "Robert Sedgewick",
-        "tag": "DSA",
         "language": "Vietnamese",
         "description": "\u1ede t\u1eadp 2 n\u00e0y s\u1ebd \u0111\u1ec1 c\u1eadp \u0111\u1ebfn c\u00e1c thu\u1eadt to\u00e1n chuy\u00ean d\u1ee5ng, g\u1ed3m 20 ch\u01b0\u01a1ng trong 4 ph\u1ea7n cu\u1ed1i c\u1ee7a nguy\u00ean b\u1ea3n",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ERpvvpnCt-JEol_Y5TXEmOgBV4BnpT31GkdS2To7jm8gSQ?e=GaTdxj",
-        "image": "./images/C\u1ea9m_Nang_Thu\u1eadt_To\u00e1n_-_Vol._2.png"
+        "image": "./images/C\u1ea9m_Nang_Thu\u1eadt_To\u00e1n_-_Vol._2.png",
+        "tags": [
+            "DSA"
+        ]
     },
     {
         "id": "18",
         "title": "C\u1ea5u Tr\u00fac D\u1eef Li\u1ec7u \u1ee8ng D\u1ee5ng V\u00e0 C\u00e0i \u0110\u1eb7t B\u1eb1ng C",
         "author": "Nguy\u1ec5n H\u1ed3ng Ch\u01b0\u01a1ng",
-        "tag": "DSA",
         "language": "Vietnamese",
         "description": "Data Structure v\u00e0 Algorithm lu\u00f4n \u0111\u01b0\u1ee3c x\u1ebfp h\u00e0ng \u0111\u1ea7u trong m\u01b0\u1eddi kh\u1ed1i ki\u1ebfn th\u1ee9c c\u01a1 b\u1ea3n c\u1ee7a Computer Science \u0111\u00e3 \u0111\u01b0\u1ee3c \u0111\u1ec1 c\u1eadp trong c\u00f4ng tr\u00ecnh nghi\u00ean c\u1ee9u Computing Curicula (CC91) n\u1ed5i ti\u1ebfng, l\u00e2u nay v\u1eabn l\u00e0 n\u1ec1n t\u1ea3ng cho ch\u01b0\u01a1ng tr\u00ecnh \u0111\u00e0o t\u1ea1o sinh vi\u00ean khoa C\u00f4ng Ngh\u1ec7 Th\u00f4ng Tin c\u1ee7a c\u00e1c tr\u01b0\u1eddng \u0111\u1ea1i h\u1ecdc",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EeNIYTp0vkhJsAWUJ1tZXaIB2yfqViv39C8e9MGhuBdw-g?e=ydIksr",
-        "image": "./images/C\u1ea5u_Tr\u00fac_D\u1eef_Li\u1ec7u_\u1ee8ng_D\u1ee5ng_V\u00e0_C\u00e0i_\u0110\u1eb7t_B\u1eb1ng_C.png"
+        "image": "./images/C\u1ea5u_Tr\u00fac_D\u1eef_Li\u1ec7u_\u1ee8ng_D\u1ee5ng_V\u00e0_C\u00e0i_\u0110\u1eb7t_B\u1eb1ng_C.png",
+        "tags": [
+            "DSA",
+            "C\\C++"
+        ]
     },
     {
         "id": "19",
         "title": "A New Research's Guide",
         "author": "James Hiebert",
-        "tag": "Others",
         "language": "English",
         "description": "This series os designed to produce thematic volumes, allowing researchers to access numerous studies on a theme in a single, peer-reviewed source",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ER3eFVmE_WJDpAUtUFtmjOEBZ-66fA_GA1mIdkzAJa__ew?e=j9xHrN",
-        "image": "./images/A_New_Research's_Guide.png"
+        "image": "./images/A_New_Research's_Guide.png",
+        "tags": [
+            "Others"
+        ]
     },
     {
         "id": "20",
         "title": "B\u1ea1n C\u00f3 Th\u1ec3 \u0110\u00e0m Ph\u00e1n B\u1ea5t C\u1ee9 \u0110i\u1ec1u G\u00ec",
         "author": "Herb Cohen",
-        "tag": "Others",
         "language": "Vietnamese",
         "description": "Herb Cohen l\u00e0 m\u1ed9t nh\u00e0 \u0111\u00e0m ph\u00e1n chuy\u00ean nghi\u1ec7p trong h\u01a1n b\u1ed1n m\u01b0\u01a1i n\u0103m, c\u1ed1 v\u1ea5n cho T\u1ed5ng th\u1ed1ng M\u1ef9 Jimmy Carter, Ronald Reagan v\u1ec1 ch\u1ed1ng kh\u1ee7ng b\u1ed1, v\u00e0 l\u00e0 c\u1ed1 v\u1ea5n cho c\u00e1c th\u01b0\u01a1ng gia, t\u1eadp \u0111o\u00e0n v\u00e0 c\u01a1 quan ch\u00ednh ph\u1ee7 h\u00e0ng \u0111\u1ea7u\nHoa K\u1ef3 nh\u01b0 B\u1ed9 Ngo\u1ea1i giao, FBI, CIA, B\u1ed9 T\u01b0 ph\u00e1p, Nh\u00e0 Tr\u1eafng... \u00d4ng t\u1eebng\ntham gia ho\u1ea1ch \u0111\u1ecbnh ch\u00ednh s\u00e1ch c\u1ee7a Hoa K\u1ef3 trong cu\u1ed9c kh\u1ee7ng ho\u1ea3ng con tin\nIran (1979-1981), v\u1ee5 c\u01b0\u1edbp m\u00e1y bay TWA 847 (1985), cu\u1ed9c kh\u1ee7ng ho\u1ea3ng\nv\u00f9ng V\u1ecbnh (1990), v\u1ee5 b\u1eaft con tin t\u1ea1i s\u1ee9 qu\u00e1n Nh\u1eadt B\u1ea3n \u1edf Peru (1996), trong\nc\u00e1c cu\u1ed9c \u0111\u00e0m ph\u00e1n ho\u00e0 b\u00ecnh cho Trung \u0110\u00f4ng t\u1ea1i tr\u1ea1i David, c\u0169ng nh\u01b0 trong\nc\u00e1c cu\u1ed9c \u0111\u00e0m ph\u00e1n gi\u1ea3i tr\u1eeb v\u0169 kh\u00ed chi\u1ebfn l\u01b0\u1ee3c (START) v\u1edbi Li\u00ean X\u00f4",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ER4i9rgVCTBIgl-ENmYqHNwBNsKvoqycOfwS5Nzs9AK1qw?e=hkTdXP",
-        "image": "./images/B\u1ea1n_C\u00f3_Th\u1ec3_\u0110\u00e0m_Ph\u00e1n_B\u1ea5t_C\u1ee9_\u0110i\u1ec1u_G\u00ec.png"
+        "image": "./images/B\u1ea1n_C\u00f3_Th\u1ec3_\u0110\u00e0m_Ph\u00e1n_B\u1ea5t_C\u1ee9_\u0110i\u1ec1u_G\u00ec.png",
+        "tags": [
+            "Others"
+        ]
     },
     {
         "id": "21",
         "title": "Animal Farm",
         "author": "George Orwell",
-        "tag": "Others",
         "language": "Vietnamese",
         "description": "Animal Farm \u0111\u01b0\u1ee3c in \u1edf Anh ng\u00e0y 17 th\u00e1ng 8 n\u0103m 1945 v\u00e0 m\u1ed9t n\u0103m sau th\u00ec \u0111\u01b0\u1ee3c in \u1edf M\u0129",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EW8DG6tun8tKryWeWRdNExgB6lYcOWphChWjDdKrDKEjXw?e=4x0sGp",
-        "image": "./images/Animal_Farm.png"
+        "image": "./images/Animal_Farm.png",
+        "tags": [
+            "Others"
+        ]
     },
     {
         "id": "22",
         "title": "Finacial Risk Modeling And Portfolio Optimization With R (2nd Edition)",
         "author": "Bernhard Pfaff",
-        "tag": "Data Science",
         "language": "English",
         "description": "The period since the late 1990s has been marked by financial crises\u2014the Asian crisis of 1997, the Russian debt crisis of 1998, the bursting of the dot-com bubble in 2000, the crises following the attack on the World Trade Center in 2001 and the invasion of Iraq in 2003, the sub-prime mortgage crisis of 2007, and European sovereign debt crisis since 2009 being the most prominent",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EQMmnGXa7KpIlPCz5i06Cx0BtqCUVQZkBo59zseMQItjzQ",
-        "image": "./images/Finacial_Risk_Modeling_And_Portfolio_Optimization_With_R_(2nd_Edition).png"
+        "image": "./images/Finacial_Risk_Modeling_And_Portfolio_Optimization_With_R_(2nd_Edition).png",
+        "tags": [
+            "Data Science",
+            "R"
+        ]
     },
     {
         "id": "23",
         "title": "Quantitative Economics With R",
         "author": "Vikram Dayal",
-        "tag": "Data Science",
         "language": "English",
         "description": "Why a data science approach to economics? Data science involves the intersection of computer science, statistics, which is a discipline that is about learning from data, and a knowledge domain\u2014here, economics",
-        "link": "Why a data science approach to economics? Data science involves the intersection of\ncomputer science, statistics, which is a discipline that is about learning from data, and\na knowledge domain\u2014here, economics",
-        "image": "./images/Quantitative_Economics_With_R.png"
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ERAkHKZuvEdKsQZSISL1DMIBNbuU3XF2iBkIl2PqLtkxDQ",
+        "image": "./images/Quantitative_Economics_With_R.png",
+        "tags": [
+            "Data Science",
+            "R"
+        ]
     }
 ]

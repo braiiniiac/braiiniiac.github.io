@@ -22,17 +22,21 @@ document.addEventListener("DOMContentLoaded", function () {
         books.forEach((book) => {
             const bookItem = document.createElement("div");
             bookItem.className = "book-item";
+
+            const tagsDisplay = book.tags.join(", ");
+
             bookItem.innerHTML = `
-                <img src="${book.image}" alt="${book.title}">
-                <h3>${book.title}</h3>
-                <p><strong>Author:</strong> ${book.author}</p>
-                <p><strong>Language:</strong> ${book.language}</p>
-                <p><strong>Tag:</strong> ${book.tag}</p>
-            `;
+            <img src="${book.image}" alt="${book.title}">
+            <h3>${book.title}</h3>
+            <p><strong>Author:</strong> ${book.author}</p>
+            <p><strong>Language:</strong> ${book.language}</p>
+            <p><strong>Tags:</strong> ${tagsDisplay}</p>
+        `;
 
             bookItem.addEventListener("click", () => {
                 window.location.href = `book.html?id=${book.id}`;
             });
+
 
             bookList.appendChild(bookItem);
         });
@@ -48,6 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
         );
         displayBooks(filteredBooks);
     }
+
     // Filter by tag and language
     function filterBooks() {
         const tag = tagFilter.value;
@@ -55,10 +60,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let filteredBooks = books;
 
+        // Filter by tag
         if (tag) {
-            filteredBooks = filteredBooks.filter((book) => book.tag === tag);
+            filteredBooks = filteredBooks.filter((book) => book.tags.includes(tag));
         }
 
+        // Filter by language
         if (language) {
             filteredBooks = filteredBooks.filter((book) => book.language === language);
         }
@@ -72,3 +79,16 @@ document.addEventListener("DOMContentLoaded", function () {
     tagFilter.addEventListener("change", filterBooks);
     languageFilter.addEventListener("change", filterBooks);
 });
+// Load tags from tags.json
+fetch('./json/tags.json')
+    .then(response => response.json())
+    .then(tags => {
+        const tagFilter = document.getElementById('tagFilter');
+        tags.forEach(tag => {
+            const option = document.createElement('option');
+            option.value = tag;
+            option.textContent = tag;
+            tagFilter.appendChild(option);
+        });
+    })
+    .catch(error => console.error('Error loading tags:', error));
