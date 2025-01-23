@@ -224,8 +224,7 @@
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EeNIYTp0vkhJsAWUJ1tZXaIB2yfqViv39C8e9MGhuBdw-g?e=ydIksr",
         "image": "./images/C\u1ea5u_Tr\u00fac_D\u1eef_Li\u1ec7u_\u1ee8ng_D\u1ee5ng_V\u00e0_C\u00e0i_\u0110\u1eb7t_B\u1eb1ng_C.png",
         "tags": [
-            "DSA",
-            "C\\C++"
+            "DSA"
         ]
     },
     {
@@ -273,8 +272,7 @@
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EQMmnGXa7KpIlPCz5i06Cx0BtqCUVQZkBo59zseMQItjzQ",
         "image": "./images/Finacial_Risk_Modeling_And_Portfolio_Optimization_With_R_(2nd_Edition).png",
         "tags": [
-            "Data Science",
-            "R"
+            "Data Science"
         ]
     },
     {
@@ -286,8 +284,55 @@
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ERAkHKZuvEdKsQZSISL1DMIBNbuU3XF2iBkIl2PqLtkxDQ",
         "image": "./images/Quantitative_Economics_With_R.png",
         "tags": [
-            "Data Science",
-            "R"
+            "Data Science"
         ]
+    },
+    {
+        "id": "24",
+        "title": "The 48 Laws Of Power",
+        "author": "Robert Greene",
+        "tags": [
+            "Others"
+        ],
+        "language": "Vietnamese",
+        "description": "N\u00f3i chung, ch\u00fang ta kh\u00f4ng th\u1ec3 n\u00e0o ch\u1ecbu n\u1ed5i c\u00e1i c\u1ea3m gi\u00e1c r\u1eb1ng m\u00ecnh kh\u00f4ng c\u00f3 t\u00ed ti quy\u1ec1n l\u1ef1c n\u00e0o \u0111\u1ed1i v\u1edbi nh\u1eefng con ng\u01b0\u1eddi v\u00e0 s\u1ef1 ki\u1ec7n quanh ta. Ai c\u0169ng mu\u1ed1n c\u00f3 nhi\u1ec1u quy\u1ec1n l\u1ef1c h\u01a1n, kh\u00f4ng ai mu\u1ed1n nh\u01b0\u1eddng b\u1edbt. Tuy nhi\u00ean trong th\u1ebf gi\u1edbi ng\u00e0y nay, th\u1eadt nguy hi\u1ec3m khi \u0111\u1ec3 m\u1ecdi ng\u01b0\u1eddi nh\u00ecn th\u1ea5y m\u00ecnh qu\u00e1 kh\u00e1t khao quy\u1ec1n l\u1ef1c, ho\u1eb7c qu\u00e1 l\u1ed9 li\u1ec5u trong vi\u1ec7c m\u01b0u c\u1ea7u quy\u1ec1n l\u1ef1c. Ch\u00fang ta ph\u1ea3i t\u1ecf ra v\u1eeba ph\u1ea3i v\u00e0 bi\u1ebft \u0111i\u1ec1u. V\u00ec v\u1eady ta c\u1ea7n ph\u1ea3i tinh vi \u2013 t\u1ecf ra t\u01b0\u01a1ng \u0111\u1eafc nh\u01b0ng b\u00ean trong th\u00ec l\u00e1u l\u1ec9nh, b\u1ec1 ngo\u00e0i d\u00e2n ch\u1ee7 nh\u01b0ng l\u00f2ng d\u1ea1 l\u1ea1i th\u1ee7 \u0111o\u1ea1n.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ETjw3vWz0wxKqfawnmF45AQBsmVdJ2G6gsGNalIuYn0XVg?e=EQdEuL",
+        "image": "./images/The_48_Laws_Of_Power.png"
+    },
+    {
+        "id": "25",
+        "title": "T\u00e0i Li\u1ec7u Gi\u00e1o Khoa Chuy\u00ean Tin - Quy\u1ec3n 1",
+        "author": "H\u1ed3 S\u0129 \u0110\u00e0m",
+        "tags": [
+            "DSA"
+        ],
+        "language": "Vietnamese",
+        "description": "B\u1ed9 Gi\u00e1o d\u1ee5c v\u00e0 \u00f0\u00e0o t\u1ea1o \u0111\u00e3 ban h\u00e0nh ch\u01b0\u01a1ng tr\u00ecnh chuy\u00ean tin h\u1ecdc cho c\u00e1c l\u1edbp chuy\u00ean 10, 11, 12. D\u1ef1a theo c\u00e1c chuy\u00ean \u00f1\u1ec1 chuy\u00ean s\u00e2u trong ch\u01b0\u01a1ng tr\u00ecnh n\u00f3i tr\u00ean, c\u00e1c t\u00e1c gi\u1ea3 bi\u00ean so\u1ea1n b\u1ed9 s\u00e1ch chuy\u00ean tin h\u1ecdc, bao g\u1ed3m c\u00e1c v\u1ea5n \u0111\u1ec1 c\u01a1 b\u1ea3n nh\u1ea5t v\u1ec1 c\u1ea5u tr\u00fac d\u1eef li\u1ec7u, thu\u1eadt to\u00e1n v\u00e0 c\u00e0i \u00f1\u1eb7t ch\u01b0\u01a1ng tr\u00ecnh.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EXjItO8W1UxEj3gwoFHMFE8Bj9WxzrUvIek6G5gwBtfBpA?e=X2b8Ln",
+        "image": "./images/T\u00e0i_Li\u1ec7u_Gi\u00e1o_Khoa_Chuy\u00ean_Tin_-_Quy\u1ec3n_1.png"
+    },
+    {
+        "id": "26",
+        "title": "T\u00e0i Li\u1ec7u Gi\u00e1o Khoa Chuy\u00ean Tin - Quy\u1ec3n 2",
+        "author": "H\u1ed3 S\u0129 \u0110\u00e0m",
+        "tags": [
+            "DSA"
+        ],
+        "language": "Vietnamese",
+        "description": "B\u1ed9 s\u00e1ch g\u1ed3m ba quy\u1ec3n, quy\u1ec3n 1, 2 v\u00e0 3. C\u1ea5u tr\u00fac m\u1ed7i quy\u1ec3n bao g\u1ed3m: ph\u1ea7n l\u00ed thuy\u1ebft, gi\u1edbi thi\u1ec7u c\u00e1c kh\u00e1i ni\u1ec7m c\u01a1 b\u1ea3n, c\u1ea7n thi\u1ebft tr\u1ef1c ti\u1ebfp, th\u01b0\u1eddng d\u00f9ng nh\u1ea5t; ph\u1ea7n \u00e1p d\u1ee5ng, tr\u00ecnh b\u00e0y c\u00e1c b\u00e0i to\u00e1n th\u01b0\u1eddng g\u1eb7p, c\u00e1ch gi\u1ea3i v\u00e0 c\u00e0i \u0111\u1eb7t ch\u01b0\u01a1ng tr\u00ecnh; cu\u1ed1i c\u00f9ng l\u00e0 c\u00e1c b\u00e0i t\u1eadp. C\u00e1c chuy\u00ean \u0111\u1ec1 trong b\u1ed9 s\u00e1ch \u0111\u01b0\u1ee3c l\u1ef1a ch\u1ecdn mang t\u00ednh h\u1ec7 th\u1ed1ng t\u1eeb c\u01a1 b\u1ea3n \u0111\u1ebfn chuy\u00ean s\u00e2u",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ESHeIHdAwMBMpm0U-Ik6ar8BnRUPIq6g_7LR1sUOt1STAg",
+        "image": "./images/T\u00e0i_Li\u1ec7u_Gi\u00e1o_Khoa_Chuy\u00ean_Tin_-_Quy\u1ec3n_2.png"
+    },
+    {
+        "id": "27",
+        "title": "T\u00e0i Li\u1ec7u Gi\u00e1o Khoa Chuy\u00ean Tin - Quy\u1ec3n 3",
+        "author": "H\u1ed3 S\u0129 \u0110\u00e0m",
+        "tags": [
+            "DSA"
+        ],
+        "language": "Vietnamese",
+        "description": "V\u1edbi tr\u1ea3i nghi\u1ec7m nhi\u1ec1u n\u0103m tham gia gi\u1ea3ng d\u1ea1y, b\u1ed3i d\u01b0\u1ee1ng h\u1ecdc sinh chuy\u00ean tin h\u1ecdc c\u1ee7a c\u00e1c tr\u01b0\u1eddng chuy\u00ean c\u00f3 truy\u1ec1n th\u1ed1ng v\u00e0 uy t\u00edn, c\u00e1c t\u00e1c gi\u1ea3 \u0111\u00e3 l\u1ef1a ch\u1ecdn, bi\u00ean so\u1ea1n c\u00e1c n\u1ed9i dung c\u01a1 b\u1ea3n, thi\u1ebft y\u1ebfu nh\u1ea5t m\u00e0 m\u00ecnh \u0111\u00e3 \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 d\u1ea1y h\u1ecdc v\u1edbi mong mu\u1ed1n b\u1ed9 s\u00e1ch ph\u1ee5c v\u1ee5 kh\u00f4ng ch\u1ec9 cho gi\u00e1o vi\u00ean v\u00e0 h\u1ecdc sinh chuy\u00ean tin h\u1ecdc c\u00e1c tr\u01b0\u1eddng Trung h\u1ecdc ph\u1ed5 th\u00f4ng m\u00e0 c\u1ea3 cho gi\u00e1o vi\u00ean, h\u1ecdc sinh chuy\u00ean tin Trung h\u1ecdc c\u01a1 s\u1edf l\u00e0m t\u00e0i li\u1ec7u tham kh\u1ea3o cho vi\u1ec7c d\u1ea1y v\u00e0 h\u1ecdc c\u1ee7a m\u00ecnh",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EXhuSk8vH3pLvXpM6d_u8GgBg7IGTYeaNDMaFFCpVlaNMQ?e=JaCcGS",
+        "image": "./images/T\u00e0i_Li\u1ec7u_Gi\u00e1o_Khoa_Chuy\u00ean_Tin_-_Quy\u1ec3n_3.png"
     }
 ]

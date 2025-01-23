@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("bookTitle").textContent = book.title;
         document.getElementById("bookAuthor").textContent = book.author;
         document.getElementById("bookLanguage").textContent = book.language;
-        document.getElementById("bookTag").textContent = book.tag;
+        const tagsDisplay = book.tags.join(", ");
+        document.getElementById("bookTags").textContent = tagsDisplay;
         document.getElementById("bookDescription").textContent = book.description || "No description available.";
         document.getElementById("bookImage").src = book.image;
         document.getElementById("bookLink").href = book.link || "#";
