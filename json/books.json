@@ -358,5 +358,34 @@
         "description": "The greatest difficulties of writing large computer programs are not in deciding\nwhat the goals of the program should be, nor even in finding methods that can be used to reach these goals. The president of a business might say, \u201cLet\u2019s get a\ncomputer to keep track of all our inventory information, accounting records, and\n2 personnel files, and let it tell us when inventories need to be reordered and budget lines are overspent, and let it handle the payroll.\u201d With enough time and effort, a staff of systems analysts and programmers might be able to determine how various staff members are now doing these tasks and write programs to do the work in the same way",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ERkoNc4gePZCtB9GrRsA8BIBwVIlyxTuLnTTl5Wmio8N9Q?e=yeyfKW",
         "image": "./images/Data_Structures_And_Program_Design_In_C++.png"
+    },
+    {
+        "id": "30",
+        "title": "Kh\u00e1t Khao H\u1ecdc M\u00e1y",
+        "author": "Andrew Yan-Tak Ng",
+        "tags": [
+            "Artificial Intelligence",
+            "Data Science",
+            "Machine Learning"
+        ],
+        "language": "Vietnamese",
+        "description": "\"S\u00e1ch Machine Learning Yearning \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Andrew Ng, m\u1ed9t trong nh\u1eefng chuy\u00ean gia h\u00e0ng \u0111\u1ea7u trong l\u0129nh v\u1ef1c Tr\u00ed tu\u1ec7 nh\u00e2n t\u1ea1o (AI) v\u00e0 H\u1ecdc m\u00e1y (Machine Learning). Andrew Ng l\u00e0 \u0111\u1ed3ng s\u00e1ng l\u1eadp c\u1ee7a Coursera, gi\u00e1o s\u01b0 t\u1ea1i Stanford University, v\u00e0 t\u1eebng l\u00e0 nh\u00e0 khoa h\u1ecdc tr\u01b0\u1edfng t\u1ea1i Baidu. \u00d4ng c\u0169ng l\u00e0 ng\u01b0\u1eddi s\u00e1ng l\u1eadp DeepLearning.AI, m\u1ed9t t\u1ed5 ch\u1ee9c gi\u00e1o d\u1ee5c v\u00e0 nghi\u00ean c\u1ee9u v\u1ec1 AI.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EZkYvZmYvLlFkfmk-SaqB7IBy-AzK9TUIayK_qlj1hQIhA?e=H3gcrA",
+        "image": "./images/Kh\u00e1t_Khao_H\u1ecdc_M\u00e1y.png"
+    },
+    {
+        "id": "31",
+        "title": "Nh\u1eadp M\u00f4n H\u1ecdc M\u00e1y V\u00e0 Khai Ph\u00e1 D\u1eef Li\u1ec7u",
+        "author": "Th\u00e2n Quang Kho\u00e1t",
+        "tags": [
+            "Artificial Intelligence",
+            "Data Mining",
+            "Data Science",
+            "Machine Learning"
+        ],
+        "language": "Vietnamese",
+        "description": "M\u1ed9t trong nh\u1eefng kh\u00e1t v\u1ecdng l\u1edbn c\u1ee7a ng\u00e0nh Tr\u00ed tu\u1ec7 nh\u00e2n t\u1ea1o (Artificial Intelligence - AI) l\u00e0 t\u1ea1o ra c\u00e1c m\u00e1y m\u00f3c c\u00f3 kh\u1ea3 n\u0103ng h\u1ed7 tr\u1ee3 v\u00e0 s\u1ed1ng ho\u00e0 nh\u1eadp v\u1edbi con ng\u01b0\u1eddi. Nh\u1eefng m\u00e1y m\u00f3c \u1ea5y c\u1ea7n c\u00f3 kh\u1ea3 n\u0103ng hi\u1ec3u, \u1ee9ng d\u1ee5ng m\u1ed9t c\u00e1ch \u0111\u00fang \u0111\u1eafn tri th\u1ee9c v\u00e0 v\u0103n ho\u00e1 c\u1ee7a con ng\u01b0\u1eddi trong su\u1ed1t th\u1eddi gian s\u1ed1ng c\u1ee7a ch\u00fang. \u0110\u1eb7c bi\u1ec7t, m\u1ed9t kh\u1ea3 n\u0103ng kh\u00f4ng th\u1ec3 thi\u1ebfu cho nh\u1eefng m\u00e1y m\u00f3c \u1ea5y l\u00e0 kh\u1ea3 n\u0103ng h\u1ecdc t\u1eeb nh\u1eefng quan s\u00e1t v\u1ec1 m\u00f4i tr\u01b0\u1eddng xung quanh.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EZR-hWMF_xhAjhCZFGoJ3s4BCcv0Y9QgqaT9E9K7FReudQ?e=zVhKOf",
+        "image": "./images/Nh\u1eadp_M\u00f4n_H\u1ecdc_M\u00e1y_V\u00e0_Khai_Ph\u00e1_D\u1eef_Li\u1ec7u.png"
     }
 ]
