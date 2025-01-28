@@ -1,41 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
-    const bookId = urlParams.get("id");
-
-    if (bookId) {
-        fetch("./json/books.json")
-            .then((response) => response.json())
-            .then((data) => {
-                const book = data[bookId];
-                if (book) {
-                    displayBookDetails(book);
-                } else {
-                    alert("Book not found!");
-                    window.location.href = "library.html";
-                }
-            })
-            .catch((error) => console.error("Error loading book details:", error));
-    } else {
-        alert("Invalid book ID!");
-        window.location.href = "library.html";
-    }
-
-    function displayBookDetails(book) {
-        document.getElementById("bookTitle").textContent = book.title;
-        document.getElementById("bookAuthor").textContent = book.author;
-        document.getElementById("bookLanguage").textContent = book.language;
-        const tagsDisplay = book.tags.join(", ");
-        document.getElementById("bookTags").textContent = tagsDisplay;
-        document.getElementById("bookDescription").textContent = book.description || "No description available.";
-        document.getElementById("bookImage").src = book.image;
-        document.getElementById("bookLink").href = book.link || "#";
-    }
-});
-
-
-// 
-document.addEventListener("DOMContentLoaded", function () {
-    const urlParams = new URLSearchParams(window.location.search);
     const bookId = urlParams.get('id');
 
     if (bookId) {
@@ -45,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const book = books.find(b => b.id === bookId);
                 if (book) {
                     displayBookDetails(book);
-                    displaySameTagBooks(books, book);
+                    displayRelatedBooks(books, book);
                 }
             });
     }
@@ -61,17 +25,27 @@ function displayBookDetails(book) {
     document.getElementById('bookLink').href = book.link;
 }
 
-function displaySameTagBooks(books, currentBook) {
-    const sameTagBooksList = document.getElementById('sameTagBooksList');
-    sameTagBooksList.innerHTML = '';
+function displayRelatedBooks(books, currentBook) {
+    const relatedBooksList = document.getElementById('sameTagBooksList');
+    relatedBooksList.innerHTML = '';
+
+    const currentBookSeriesName = currentBook.title.split(' - ')[0];
+
+    const sameSeriesBooks = books.filter(book => {
+        const bookSeriesName = book.title.split(' - ')[0];
+        return book.id !== currentBook.id && bookSeriesName === currentBookSeriesName;
+    });
+
 
     const currentTags = currentBook.tags;
     const sameTagBooks = books.filter(book =>
-        book.id !== currentBook.id && book.tags.some(tag => currentTags.includes(tag))
+        book.id !== currentBook.id &&
+        !sameSeriesBooks.includes(book) &&
+        book.tags.some(tag => currentTags.includes(tag))
     );
 
-    const maxDisplayBooks = 5;
-    const displayedBooks = sameTagBooks.slice(0, maxDisplayBooks);
+    const maxDisplayBooks = 5; 
+    const displayedBooks = [...sameSeriesBooks, ...sameTagBooks.slice(0, maxDisplayBooks)];
 
     if (displayedBooks.length > 0) {
         displayedBooks.forEach(book => {
@@ -85,9 +59,9 @@ function displaySameTagBooks(books, currentBook) {
             bookItem.addEventListener('click', () => {
                 window.location.href = `book.html?id=${book.id}`;
             });
-            sameTagBooksList.appendChild(bookItem);
+            relatedBooksList.appendChild(bookItem);
         });
     } else {
-        sameTagBooksList.innerHTML = '<p>No related books found.</p>';
+        relatedBooksList.innerHTML = '<p>No related books found.</p>';
     }
 }

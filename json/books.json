@@ -454,5 +454,41 @@
         "description": "Computer vision is a rapidly growing field, partly as a result of both cheaper and more capable cameras, partly because of affordable processing power, and partly because vi\u0002sion algorithms are starting to mature. OpenCV itself has played a role in the growth of computer vision by enabling thousands of people to do more productive work in vision",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EWR6Kee3eZRBr-e4cPKdTuUBS24jL06R_9MURJ2u7lf15A?e=FNy1Jy",
         "image": "./images/Learning_Computer_Vision_With_The_OpenCV_Library.png"
+    },
+    {
+        "id": "37",
+        "title": "The Art Of Computer Programming - Volume 1",
+        "author": "Donald E. Knuth",
+        "tags": [
+            "DSA"
+        ],
+        "language": "English",
+        "description": "The process of preparing programs for a digital computer is espcially attractive because it not only can be economically and scientifically rewarding, it can also be an aesthetic experience much like composing poetry or music",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EfCxLZjB5RdPl5xYqO6TI6wB09nK_MKv83yvRBWw4YIQew?e=Gt8PEs",
+        "image": "./images/The_Art_Of_Computer_Programming_-_Volume_1.png"
+    },
+    {
+        "id": "38",
+        "title": "The Art Of Computer Programming - Volume 2",
+        "author": "Donald E. Knuth",
+        "tags": [
+            "DSA"
+        ],
+        "language": "English",
+        "description": "This volume comprises Chapter 3 and 4 of the complete series. Chapter 3 is concerned with \"random numbers\": it is not only a study of various methods for generating random sequences, it also investigates statistical tests for randomness, as well as the transformation of uniform random numbers into other type of random quantities; the latter subject illustrates how random numbers are used in practice",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/Ech5o3ELQeBDsvPLAsQoAJwB87QsA2NwNRrDJfrlwZNhgg?e=gGJahI",
+        "image": "./images/The_Art_Of_Computer_Programming_-_Volume_2.png"
+    },
+    {
+        "id": "39",
+        "title": "The Art Of Computer Programming - Volume 3",
+        "author": "Donald E. Knuth",
+        "tags": [
+            "DSA"
+        ],
+        "language": "English",
+        "description": "This book forms a natural sequel to the material on Information Structures in Chapter 2, because it adds the concept of linearly-ordered data to the other basic structural ideas",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ERpVwk4qinVJs6WrXFvmWc0B0Z4g75IPvZYZWQs0P3t8zw?e=owtlXB",
+        "image": "./images/The_Art_Of_Computer_Programming_-_Volume_3.png"
     }
 ]
