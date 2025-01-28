@@ -7,10 +7,8 @@
     <title>WENLIB - Book</title>
     <link rel="icon" href="./assets/bookpeng.ico">
     <link rel="stylesheet" href="./css/style.css">
-    <!-- Slick Carousel CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- Add Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
@@ -37,14 +35,20 @@
                 <p><strong>Language:</strong> <span id="bookLanguage"></span></p>
                 <p><strong>Tags:</strong> <span id="bookTags"></span></p>
                 <p><strong>Description:</strong> <span id="bookDescription"></span></p>
-                <a id="bookLink" href="#" target="_blank" class="read-link">Read</a>
+                <a id="bookLink" target="_blank" class="read-link">
+                    <i class="fa-solid fa-paperclip"></i>
+                    READ
+                </a>
                 <div class="same-tag-books">
                     <h2>Related books:</h2>
                     <div id="sameTagBooksList" class="book-list"></div>
                 </div>
             </div>
         </section>
-        <a href="library.html" class="back-link">Back to Library</a>
+        <a href="library.html" class="social-link" id="back-link">
+            <i class="fa-solid fa-arrow-left"></i>
+            <h4>Back to Library</h4>
+        </a>
     </main>
 
     <!-- Footer -->

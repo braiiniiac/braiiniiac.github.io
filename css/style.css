@@ -588,30 +588,10 @@ body {
     }
 }
 
-/* Back to Library */
-.back-link {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: var(--main-color);
-
-    color: white;
-
-    text-decoration: none;
-
-    border-radius: 4px;
-
-    text-align: center;
-
-    transition: background-color 0.3s ease;
-
-    width: fit-content;
-    box-sizing: border-box;
-}
-
-.back-link:hover {
-    background-color: #000000;
-
+/* Back to library link button */
+#back-link {
+    width: 30%;
+    margin: auto;
 }
 
 /* Same Tag Books Section */
