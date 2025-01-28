@@ -9,7 +9,7 @@
     --main-light-color: rgb(225, 238, 39);
     --bg-color: rgb(0, 122, 126);
     --darker-bg-color: rgb(0, 69, 71);
-    --wen-font: Segoe UI, Cascadia Code, Cambria, Times, 'Times New Roman', serif;
+    --wen-font: Cascadia Code, Cambria, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -168,6 +168,10 @@ body {
 .content p {
     margin: 5px;
     font-size: 30px;
+}
+
+.content hr {
+    height: auto;
 }
 
 /* Sections */
@@ -664,5 +668,3 @@ body {
     font-size: 14px;
     color: #666;
 }
-
-
