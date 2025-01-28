@@ -7,9 +7,19 @@
     <title>WENLIB - Library</title>
     <link rel="icon" href="./assets/w.ico">
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Add Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
+    <!-- Welcome Section -->
+    <header class="welcome-section">
+        <div class="welcome-content">
+            <h1>Welcome to WENLIB Library</h1>
+            <p>Enjoy! <i class="fa-solid fa-face-smile-wink"></i></p>
+        </div>
+    </header>
+
     <!-- Navbar -->
     <nav class="navbar">
         <h1 id="navlogo" onclick="toggleMenu()">WENLIB<span class="arrow-down"></span></h1>
@@ -23,11 +33,12 @@
 
     <!-- Main Content -->
     <main class="content">
+
         <!-- Filter and Search Section -->
         <section class="filter-section">
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="Search by title or author...">
-                <button id="searchButton">Search</button>
+                <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
             <div class="filter-container">
                 <select id="tagFilter">

@@ -49,7 +49,6 @@ body {
 
 .arrow-down {
     display: none;
-
 }
 
 
@@ -99,7 +98,7 @@ body {
         justify-content: center;
         position: relative;
         position: fixed;
-        height: 40px;
+        height: 50px;
     }
 
 
@@ -117,13 +116,25 @@ body {
         border-left: 6px solid transparent;
         border-right: 6px solid transparent;
         border-top: 6px solid var(--main-light-color);
-
         position: absolute;
-        bottom: -6px;
-
+        bottom: -12px;
         left: 50%;
         transform: translateX(-50%);
+        animation: bounce 1.5s infinite ease-in-out;
     }
+
+    @keyframes bounce {
+
+        0%,
+        100% {
+            transform: translateX(-50%) translateY(0);
+        }
+
+        50% {
+            transform: translateX(-50%) translateY(-2px);
+        }
+    }
+
 
 
     #navMenu {
@@ -387,7 +398,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: var(--main-color);
+    background-color: var(--darker-bg-color);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px;
     border-radius: 8px;
@@ -647,4 +658,65 @@ body {
     margin: 5px 0;
     font-size: 14px;
     color: #666;
+}
+
+/* Welcome Section */
+.welcome-section {
+    /* background-color: var(--darker-bg-color); */
+
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 2px solid var(--main-light-color);
+
+    background: linear-gradient(to right, rgb(0, 122, 126), rgb(0, 69, 71));
+    background-size: 200% 100%;
+    animation: gradientMove 6s ease-in-out infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.welcome-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: var(--main-light-color);
+}
+
+.welcome-content p {
+    font-size: 25px;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .welcome-content h1 {
+        font-size: 28px;
+    }
+
+    .welcome-content p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-content h1 {
+        font-size: 24px;
+    }
+
+    .welcome-content p {
+        font-size: 14px;
+    }
 }
