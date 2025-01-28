@@ -30,12 +30,11 @@ function displayRelatedBooks(books, currentBook) {
     relatedBooksList.innerHTML = '';
 
     const currentBookSeriesName = currentBook.title.split(' - ')[0];
-
     const sameSeriesBooks = books.filter(book => {
         const bookSeriesName = book.title.split(' - ')[0];
         return book.id !== currentBook.id && bookSeriesName === currentBookSeriesName;
     });
-
+    const sameBooksLeng = sameSeriesBooks.length;
 
     const currentTags = currentBook.tags;
     const sameTagBooks = books.filter(book =>
@@ -44,7 +43,7 @@ function displayRelatedBooks(books, currentBook) {
         book.tags.some(tag => currentTags.includes(tag))
     );
 
-    const maxDisplayBooks = 5; 
+    const maxDisplayBooks = sameBooksLeng > 0 ? 5 - sameBooksLeng : 5;
     const displayedBooks = [...sameSeriesBooks, ...sameTagBooks.slice(0, maxDisplayBooks)];
 
     if (displayedBooks.length > 0) {
