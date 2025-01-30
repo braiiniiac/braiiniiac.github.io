@@ -52,7 +52,8 @@
         "title": "Artificial Intelligence: A Modern Approach Third Edition",
         "author": "Stuart J. Russell",
         "tags": [
-            "AI"
+            "AI",
+            "Data Science"
         ],
         "language": "English",
         "description": "AI is one of the newest fields in science and engineering. Work started in earnest soon after World War II, and the name itself was coined in 1956. Along with molecular biology, AI is regularly cited as the \u201cfield I would most like to be in\u201d by scientists in other disciplines. A student in physics might reasonably feel that all the good ideas have already been taken by Galileo, Newton, Einstein, and the rest. AI, on the other hand, still has openings for several full-time Einsteins and Edisons.",
@@ -82,6 +83,18 @@
         "description": "B\u1ea3o m\u1eadt l\u00e0 m\u1ed9t v\u1ea5n \u0111\u1ec1 r\u1ea5t t\u1ed1n k\u00e9m v\u00e0 ph\u1ee9c t\u1ea1p. G\u1ea7n nh\u01b0 h\u1ec7 th\u1ed1ng n\u00e0o c\u0169ng c\u00f3 l\u1ed7 h\u1ed5ng (c\u1ea3 ph\u1ea7n m\u1ec1m l\u1eabn ph\u1ea7n c\u1ee9ng), c\u00e1c hacker c\u00f3 th\u1ec3 th\u00f4ng qua c\u00e1c l\u1ed7 h\u1ed5ng n\u00e0y \u0111\u1ec3 t\u1ea5n c\u00f4ng h\u1ec7 th\u1ed1ng. Vi\u1ec7c \u0111\u1ea3m b\u1ea3o h\u1ec7 th\u1ed1ng b\u1ea3o m\u1eadt l\u00e0 tr\u00e1ch nhi\u1ec7m c\u1ee7a r\u1ea5t nhi\u1ec1u b\u00ean: Sysadmin, network, manager v\u00e0 developer. Trong ph\u1ea1m vi s\u00e1ch, m\u00ecnh s\u1ebd c\u00f9ng c\u00e1c b\u1ea1n ti\u1ebfp c\u1eadn kh\u00eda c\u1ea1nh b\u1ea3o m\u1eadt d\u01b0\u1edbi g\u00f3c nh\u00ecn c\u1ee7a m\u1ed9t developer.",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EW7UPHFZPAtMjE-Ej0BdXH0BRxFQl3rt-RIXRmfPWmEJkw?e=KfCl4F",
         "image": "./images/B\u1ea3o_M\u1eadt_Nh\u1eadp_M\u00f4n_-_B\u1ea3o_M\u1eadt_C\u01a1_B\u1ea3n_Cho_Developer.png"
+    },
+    {
+        "id": "b9826bf3-b056-474b-95cf-6a2ed4be9caf",
+        "title": "Cracking The Coding Interview",
+        "author": "Gayle Laakmann",
+        "tags": [
+            "DSA"
+        ],
+        "language": "English",
+        "description": "The focus of Cracking the Coding Interview is algorithm, coding and design questions. Why? Because while you can and will be asked behavioral questions, the answers will be as varied as your resume. Likewise, while many firms will ask so-called \u201ctrivia\u201d questions (e.g., \u201cWhat is \na virtual function?\u201d), the skills developed through practicing these questions are limited to very specific bits of knowledge. The book will briefly touch on some of these questions, to show you what they\u2019re like, but I have chosen to allocate space where there\u2019s more to learn.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ERqX54FDLVNLraDm0j-kZ0ABqrzSU9QsWuTU42QNnhWo9A?e=xN1KzC",
+        "image": "./images/Cracking_The_Coding_Interview.png"
     },
     {
         "id": "c06b66b0-eeab-4e2d-ab86-d38850c4c2ad",
@@ -150,7 +163,8 @@
         "tags": [
             "AI",
             "Data Science",
-            "ML & DL"
+            "Deep Learning",
+            "Machine Learning"
         ],
         "language": "Vietnamese",
         "description": "Nh\u1eefng n\u0103m g\u1ea7n \u0111\u00e2y, AI - Artificial Intelligence (Tr\u00ed Tu\u1ec7 Nh\u00e2n T\u1ea1o), v\u00e0 c\u1ee5 th\u1ec3 h\u01a1n l\u00e0 Machine Learning (M\u00e1y H\u1ecdc) n\u1ed5i l\u00ean nh\u01b0 m\u1ed9t minh ch\u1ee9ng c\u1ee7a cu\u1ed9c c\u00e1ch m\u1ea1ng c\u00f4ng nghi\u1ec7p l\u1ea7n th\u1ee9 t\u01b0 (1 - \u0111\u1ed9ng c\u01a1 h\u01a1i n\u01b0\u1edbc, 2 - n\u0103ng l\u01b0\u1ee3ng \u0111i\u1ec7n, 3 - c\u00f4ng ngh\u1ec7 th\u00f4ng tin). AI hi\u1ec7n di\u1ec7n trong m\u1ecdi l\u0129nh v\u1ef1c c\u1ee7a \u0111\u1eddi s\u1ed1ng con ng\u01b0\u1eddi, t\u1eeb kinh t\u1ebf, gi\u00e1o d\u1ee5c, y khoa cho \u0111\u1ebfn nh\u1eefng c\u00f4ng vi\u1ec7c nh\u00e0, gi\u1ea3i tr\u00ed hay th\u1eadm ch\u00ed l\u00e0 trong qu\u00e2n s\u1ef1.",
@@ -246,9 +260,9 @@
         "title": "Kh\u00e1t Khao H\u1ecdc M\u00e1y",
         "author": "Andrew Yan-Tak Ng",
         "tags": [
-            "Data Science",
             "AI",
-            "ML & DL"
+            "Data Science",
+            "Machine Learning"
         ],
         "language": "Vietnamese",
         "description": "\"S\u00e1ch Machine Learning Yearning \u0111\u01b0\u1ee3c vi\u1ebft b\u1edfi Andrew Ng, m\u1ed9t trong nh\u1eefng chuy\u00ean gia h\u00e0ng \u0111\u1ea7u trong l\u0129nh v\u1ef1c Tr\u00ed tu\u1ec7 nh\u00e2n t\u1ea1o (AI) v\u00e0 H\u1ecdc m\u00e1y (Machine Learning). Andrew Ng l\u00e0 \u0111\u1ed3ng s\u00e1ng l\u1eadp c\u1ee7a Coursera, gi\u00e1o s\u01b0 t\u1ea1i Stanford University, v\u00e0 t\u1eebng l\u00e0 nh\u00e0 khoa h\u1ecdc tr\u01b0\u1edfng t\u1ea1i Baidu. \u00d4ng c\u0169ng l\u00e0 ng\u01b0\u1eddi s\u00e1ng l\u1eadp DeepLearning.AI, m\u1ed9t t\u1ed5 ch\u1ee9c gi\u00e1o d\u1ee5c v\u00e0 nghi\u00ean c\u1ee9u v\u1ec1 AI.",
@@ -335,10 +349,10 @@
         "title": "Nh\u1eadp M\u00f4n H\u1ecdc M\u00e1y V\u00e0 Khai Ph\u00e1 D\u1eef Li\u1ec7u",
         "author": "Th\u00e2n Quang Kho\u00e1t",
         "tags": [
+            "AI",
             "Data Mining",
             "Data Science",
-            "AI",
-            "ML & DL"
+            "Machine Learning"
         ],
         "language": "Vietnamese",
         "description": "M\u1ed9t trong nh\u1eefng kh\u00e1t v\u1ecdng l\u1edbn c\u1ee7a ng\u00e0nh Tr\u00ed tu\u1ec7 nh\u00e2n t\u1ea1o (Artificial Intelligence - AI) l\u00e0 t\u1ea1o ra c\u00e1c m\u00e1y m\u00f3c c\u00f3 kh\u1ea3 n\u0103ng h\u1ed7 tr\u1ee3 v\u00e0 s\u1ed1ng ho\u00e0 nh\u1eadp v\u1edbi con ng\u01b0\u1eddi. Nh\u1eefng m\u00e1y m\u00f3c \u1ea5y c\u1ea7n c\u00f3 kh\u1ea3 n\u0103ng hi\u1ec3u, \u1ee9ng d\u1ee5ng m\u1ed9t c\u00e1ch \u0111\u00fang \u0111\u1eafn tri th\u1ee9c v\u00e0 v\u0103n ho\u00e1 c\u1ee7a con ng\u01b0\u1eddi trong su\u1ed1t th\u1eddi gian s\u1ed1ng c\u1ee7a ch\u00fang. \u0110\u1eb7c bi\u1ec7t, m\u1ed9t kh\u1ea3 n\u0103ng kh\u00f4ng th\u1ec3 thi\u1ebfu cho nh\u1eefng m\u00e1y m\u00f3c \u1ea5y l\u00e0 kh\u1ea3 n\u0103ng h\u1ecdc t\u1eeb nh\u1eefng quan s\u00e1t v\u1ec1 m\u00f4i tr\u01b0\u1eddng xung quanh.",
@@ -569,23 +583,12 @@
         "tags": [
             "AI",
             "Data Science",
-            "ML & DL"
+            "Deep Learning",
+            "Machine Learning"
         ],
         "language": "Vietnamese",
         "description": "Ch\u1ec9 v\u00e0i n\u0103m tr\u01b0\u1edbc, kh\u00f4ng c\u00f3 qu\u00e2n \u0111o\u00e0n c\u1ee7a c\u00e1c nh\u00e0 khoa h\u1ecdc h\u1ecdc s\u00e2u ph\u00e1t tri\u1ec3n c\u00e1c s\u1ea3n ph\u1ea9m v\u00e0 d\u1ecbch v\u1ee5 th\u00f4ng minh t\u1ea1i c\u00e1c c\u00f4ng ty l\u1edbn v\u00e0 c\u00f4ng ty kh\u1edfi nghi\u1ec7p. Khi ch\u00fang t\u00f4i b\u01b0\u1edbc v\u00e0o l\u0129nh v\u1ef1c n\u00e0y, h\u1ecdc m\u00e1y \u0111\u00e3 kh\u00f4ng ra l\u1ec7nh ti\u00eau \u0111\u1ec1 tr\u00ean c\u00e1c t\u1edd b\u00e1o h\u00e0ng ng\u00e0y. Cha m\u1eb9 ch\u00fang ta kh\u00f4ng bi\u1ebft h\u1ecdc m\u00e1y l\u00e0 g\u00ec, ch\u1ee9 \u0111\u1eebng n\u00f3i \u0111\u1ebfn l\u00fd do t\u1ea1i sao ch\u00fang ta c\u00f3 th\u1ec3 th\u00edch n\u00f3 h\u01a1n m\u1ed9t ngh\u1ec1 nghi\u1ec7p trong y h\u1ecdc ho\u1eb7c lu\u1eadt ph\u00e1p.",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EWnZ6fBDOJtNhmb4hI3MgKsB6ujnrMxtYQ80XyUCiA2wVQ?e=G4eW6Y",
         "image": "./images/\u0110\u1eafm_M\u00ecnh_V\u00e0o_H\u1ecdc_S\u00e2u.png"
-    },
-    {
-        "id": "b9826bf3-b056-474b-95cf-6a2ed4be9caf",
-        "title": "Cracking The Coding Interview",
-        "author": "Gayle Laakmann",
-        "tags": [
-            "DSA"
-        ],
-        "language": "English",
-        "description": "The focus of Cracking the Coding Interview is algorithm, coding and design questions. Why? Because while you can and will be asked behavioral questions, the answers will be as varied as your resume. Likewise, while many firms will ask so-called \u201ctrivia\u201d questions (e.g., \u201cWhat is \na virtual function?\u201d), the skills developed through practicing these questions are limited to very specific bits of knowledge. The book will briefly touch on some of these questions, to show you what they\u2019re like, but I have chosen to allocate space where there\u2019s more to learn.",
-        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ERqX54FDLVNLraDm0j-kZ0ABqrzSU9QsWuTU42QNnhWo9A?e=xN1KzC",
-        "image": "./images/Cracking_The_Coding_Interview.png"
     }
 ]
