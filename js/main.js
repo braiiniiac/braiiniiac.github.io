@@ -11,7 +11,13 @@ document.getElementById('current-date').textContent = currentDate;
 
 function toggleMenu() {
     const navMenu = document.getElementById('navMenu');
+    const arrow = document.querySelector(".arrow-down");
     navMenu.classList.toggle('active');
+    if (navMenu.classList.contains('active')) {
+        arrow.style.display = 'none';
+    } else {
+        arrow.style.display = 'inline-block';
+    }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
