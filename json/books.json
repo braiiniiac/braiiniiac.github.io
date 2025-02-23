@@ -629,5 +629,31 @@
         "description": "The 1995 world of Applied Cryptography, Second Edition, was very different from \ntoday\u2019s world. That was a singular time in academic cryptography, when I was able to survey the entire field of research and put everything under one cover. Today, there\u2019s too much, and the task of compiling it all is just too great.",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EaQzb_BAn6ZCkDo0UqLhgcMBm2CLg_hbR8NJe0Z5jC4Sow?e=A0AemI",
         "image": "./images/Applied_Cryptography_-_Protocols,_Algorithms,_And_Source_Code_In_C.png"
+    },
+    {
+        "id": "1997c58d-e5df-4788-b8ea-4ae57b53c7bc",
+        "title": "Crypto 101",
+        "author": "Laurens Van Houtven",
+        "tags": [
+            "Cryptography",
+            "Cybersecurity"
+        ],
+        "language": "English",
+        "description": "This book hopes to be a bridge: to teach everyday pro\u0002grammers from any field or specialization to understand just enough cryptography to do their jobs, or maybe just satisfy their appetite.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EVj8Xd12vwVHvax1qcShzhwBT_rSmVQGn8N-7qzYtvQcyA?e=6L2FgI",
+        "image": "./images/Crypto_101.png"
+    },
+    {
+        "id": "b007ec05-97fb-4be2-890b-f0872d65a0fa",
+        "title": "Cryptography Engineering: Design Principles and Practical Applications",
+        "author": "Niels Ferguson",
+        "tags": [
+            "Cryptography",
+            "Cybersecurity"
+        ],
+        "language": "English",
+        "description": "We are deeply indebted to the cryptography and security community at large. This book would not have been possible without all of their efforts in advancing the field. This book also reflects our knowledge and experience as cryptographers, and we are deeply grateful to our peers and mentors for helping shape our understanding of cryptography.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ETvAg37bX1VCj_3ZXc7RszIB9DeePFFfahexZcVSAmxydg?e=brG3ZG",
+        "image": "./images/Cryptography_Engineering:_Design_Principles_and_Practical_Applications.png"
     }
 ]
