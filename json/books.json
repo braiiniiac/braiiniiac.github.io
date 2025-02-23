@@ -655,5 +655,70 @@
         "description": "We are deeply indebted to the cryptography and security community at large. This book would not have been possible without all of their efforts in advancing the field. This book also reflects our knowledge and experience as cryptographers, and we are deeply grateful to our peers and mentors for helping shape our understanding of cryptography.",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ETvAg37bX1VCj_3ZXc7RszIB9DeePFFfahexZcVSAmxydg?e=brG3ZG",
         "image": "./images/Cryptography_Engineering_Design_Principles_and_Practical_Applications.png"
+    },
+    {
+        "id": "b771d08d-79d6-46b7-b8af-3d98f5328b84",
+        "title": "Foundations Of Cryptography - Basic Tools",
+        "author": "Oded Goldreich",
+        "tags": [
+            "Cryptography",
+            "Cybersecurity"
+        ],
+        "language": "English",
+        "description": "Cryptography is concerned with the construction of schemes that should be able to withstand any abuse. Such schemes are constructed so as to maintain a desired func\u0002tionality, even under malicious attempts aimed at making them deviate from their prescribed functionality.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ES7ujd852fBJot2lVEW7qrQBsVXcNh090pwHQH4Mlrd9og?e=8xBx90",
+        "image": "./images/Foundations_Of_Cryptography_-_Basic_Tools.png"
+    },
+    {
+        "id": "c3389f44-a7dd-4e69-b418-adcc79415af7",
+        "title": "Gi\u00e1o Tr\u00ecnh M\u1eadt M\u00e3 H\u1ecdc",
+        "author": "Nguy\u1ec5n B\u00ecnh",
+        "tags": [
+            "Cryptography",
+            "Cybersecurity"
+        ],
+        "language": "Vietnamese",
+        "description": "Trong s\u1ef1 ph\u00e1t tri\u1ec3n c\u1ee7a x\u00e3 h\u1ed9i lo\u00e0i ng\u01b0\u1eddi, k\u1ec3 t\u1eeb khi c\u00f3 s\u1ef1 trao \u0111\u1ed5i th\u00f4ng tin, an to\u00e0n th\u00f4ng tin tr\u1edf th\u00e0nh m\u1ed9t nhu c\u1ea7u g\u1eafn li\u1ec1n v\u1edbi n\u00f3 nh\u01b0 h\u00ecnh v\u1edbi b\u00f3ng. T\u1eeb thu\u1edf s\u01a1 khai, an to\u00e0n th\u00f4ng tin \u0111\u01b0\u1ee3c hi\u1ec3u \u0111\u01a1n gi\u1ea3n l\u00e0 gi\u1eef b\u00ed m\u1eadt v\u00e0 \u0111i\u1ec1u n\u00e0y \u0111\u01b0\u1ee3c xem nh\u01b0 m\u1ed9t ngh\u1ec7 thu\u1eadt ch\u1ee9 ch\u01b0a ph\u1ea3i l\u00e0 m\u1ed9t ng\u00e0nh khoa h\u1ecdc.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ET3O7BjTCKxBo9DUOahInDcBwAyPjOvF5-ohqbqTSvNx-g?e=9fCJQp",
+        "image": "./images/Gi\u00e1o_Tr\u00ecnh_M\u1eadt_M\u00e3_H\u1ecdc.png"
+    },
+    {
+        "id": "db5e1f24-5729-4e9c-b708-a3ef391219f2",
+        "title": "Introduction To Modern Cryptography - Second Edition",
+        "author": "Jonathan Katz",
+        "tags": [
+            "Cryptography",
+            "Cybersecurity"
+        ],
+        "language": "English",
+        "description": "The goal of our book remains the same as in the first edition: to present the basic paradigms and principles of modern cryptography to a general audience with a basic mathematics background. We have designed this book to serve as a textbook for undergraduate- or graduate-level courses in cryptography (in computer science, electrical engineering, or mathematics departments), as a general introduction suitable for self-study (especially for beginning graduate students), and as a reference for students, researchers, and practitioners.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/ETfTt80z1NpBq_VA6_TOKEIBrwNXg5wPmHqa2wMk_ol_XQ?e=HeVrPt",
+        "image": "./images/Introduction_To_Modern_Cryptography_-_Second_Edition.png"
+    },
+    {
+        "id": "bdc43e5f-1054-4cf4-a6e3-175b825b9651",
+        "title": "The Joy Of Cryptography",
+        "author": "Mike Rosulek",
+        "tags": [
+            "Cryptography",
+            "Cybersecurity"
+        ],
+        "language": "English",
+        "description": "This book is for anyone who might need to secure information with cryptography, and who is curious about what makes some things \u201csecure\u201d (and what makes other things insecure). I don\u2019t imagine that most readers of this book will develop their own novel cryptography (e.g., designing new block ciphers), but they will be far more likely to use and combine cryptographic building blocks \u2014 thus our focus on the logic of composition.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EbvltkabSW1GsriuyhAGAeMBHFcg9721QeB2aOJVf08XvQ?e=oZI7Gk",
+        "image": "./images/The_Joy_Of_Cryptography.png"
+    },
+    {
+        "id": "3decc780-2f64-4b82-81dd-1a597ae61415",
+        "title": "Practical Cryptography In Python - Learning Correct Cryptography By Example",
+        "author": "Seth James Nielson",
+        "tags": [
+            "Cryptography",
+            "Cybersecurity"
+        ],
+        "language": "English",
+        "description": "The interconnected world of the current era has drastically changed everything, \nincluding banking, entertainment, and even statecraft. Despite differences in users, purposes, and security profiles, these digital applications have at least one thing in common: they all require properly applied cryptography to work correctly.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EbHYTQnCVdZEt20I8-ALtpYBupLpLiC7_fcDsBcBVLkEZQ?e=0QjAjh",
+        "image": "./images/Practical_Cryptography_In_Python_-_Learning_Correct_Cryptography_By_Example.png"
     }
 ]
