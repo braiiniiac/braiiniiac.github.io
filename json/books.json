@@ -720,5 +720,18 @@
         "description": "The interconnected world of the current era has drastically changed everything, \nincluding banking, entertainment, and even statecraft. Despite differences in users, purposes, and security profiles, these digital applications have at least one thing in common: they all require properly applied cryptography to work correctly.",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EbHYTQnCVdZEt20I8-ALtpYBupLpLiC7_fcDsBcBVLkEZQ?e=0QjAjh",
         "image": "./images/Practical_Cryptography_In_Python_-_Learning_Correct_Cryptography_By_Example.png"
+    },
+    {
+        "id": "547c0dba-4c4f-416e-a30d-ad25af461905",
+        "title": "Modern Cryptography: Theory And Practice",
+        "author": "Wenbo Mao",
+        "tags": [
+            "Cryptography",
+            "Cybersecurity"
+        ],
+        "language": "English",
+        "description": "Many cryptographic schemes and protocols, especially those based on public-key cryptography, have basic or so-called \"textbook crypto\" versions, as these versions are usually the subjects for many textbooks on cryptography. This book takes a different approach to introducing cryptography: it pays much more attention to fit-for-application aspects of cryptography. It explains why \"textbook crypto\" is only good in an ideal world where data are random and bad guys behave nicely. It reveals the general unfitness of \"textbook crypto\" for the real world by demonstrating numerous attacks on such schemes, protocols and systems under various real\u0002world application scenarios. This book chooses to introduce a set of practical cryptographic schemes, protocols and systems, many of them standards or de facto ones, studies them closely, explains their working principles, discusses their practical usages, and examines their strong (i.e., fit-for-application) security properties, often with security evidence formally established. The book also includes self-contained theoretical background material that is the foundation for modern cryptography.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EbqRssUq7MtIqgOGUJCsG00BScAhuD3JsI9lsy2OIXY39Q?e=p8tWb0",
+        "image": "./images/Modern_Cryptography_Theory_And_Practice.jpg"
     }
 ]
