@@ -603,5 +603,18 @@
         "description": "Each generation has its unique needs and aspirations. When Charles Wiley first opened his small printing shop in lower Manhattan in 1807, it was a generation of boundless potential searching for an identity. And we were there, helping to define a new American literary tradition. Over half a century later, in the midst of the Second Industrial Revolution, it was a generation focused on building the future.",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EXhvC1U-R1BJh805ACU2SPgBBHcHsEz6-qUGHjqYk_wAhQ?e=Sr7HWF",
         "image": "./images/Computer_Security_And_Cryptography.png"
+    },
+    {
+        "id": "8c114456-b197-458c-a9b0-800f2c3fd632",
+        "title": "A Graduate Course In Applied Cryptography",
+        "author": "Dan Boneh",
+        "tags": [
+            "Cryptography",
+            "Cybersecurity"
+        ],
+        "language": "English",
+        "description": "Cryptography is an indispensable tool used to protect information in computing systems. It is used everywhere and by billions of people worldwide on a daily basis. It is used to protect data at rest and data in motion. Cryptographic systems are an integral part of standard protocols, most notably the Transport Layer Security (TLS) protocol, making it relatively easy to incorporate strong encryption into a wide range of applications.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EXuQBo6QWeZAsxmoDNyVf0oBOuggWH9OsfnWnT5AKRjNLA?e=A731Ha",
+        "image": "./images/A_Graduate_Course_In_Applied_Cryptography.png"
     }
 ]
