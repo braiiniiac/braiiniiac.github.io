@@ -616,5 +616,18 @@
         "description": "Cryptography is an indispensable tool used to protect information in computing systems. It is used everywhere and by billions of people worldwide on a daily basis. It is used to protect data at rest and data in motion. Cryptographic systems are an integral part of standard protocols, most notably the Transport Layer Security (TLS) protocol, making it relatively easy to incorporate strong encryption into a wide range of applications.",
         "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EXuQBo6QWeZAsxmoDNyVf0oBOuggWH9OsfnWnT5AKRjNLA?e=A731Ha",
         "image": "./images/A_Graduate_Course_In_Applied_Cryptography.png"
+    },
+    {
+        "id": "240b9b9e-29c6-4f6a-b3bd-ef990d07d2ec",
+        "title": "Applied Cryptography - Protocols, Algorithms, And Source Code In C",
+        "author": "Bruce Schneier",
+        "tags": [
+            "Cryptography",
+            "Cybersecurity"
+        ],
+        "language": "English",
+        "description": "The 1995 world of Applied Cryptography, Second Edition, was very different from \ntoday\u2019s world. That was a singular time in academic cryptography, when I was able to survey the entire field of research and put everything under one cover. Today, there\u2019s too much, and the task of compiling it all is just too great.",
+        "link": "https://8yh843-my.sharepoint.com/:b:/g/personal/tnqa_8yh843_onmicrosoft_com/EaQzb_BAn6ZCkDo0UqLhgcMBm2CLg_hbR8NJe0Z5jC4Sow?e=A0AemI",
+        "image": "./images/Applied_Cryptography_-_Protocols,_Algorithms,_And_Source_Code_In_C.png"
     }
 ]
